@@ -10,7 +10,7 @@ import threading
 import cv2
 import numpy as np
 import pyautogui
-import pygetwindow as gw
+import pywinctl as gw
 import sys
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -175,7 +175,7 @@ def recording():
     fourcc = cv2.VideoWriter_fourcc(*"XVID")
     fps = 12.0
     record_seconds = 100
-    w = gw.getWindowsWithTitle(window_name)[0]
+    w = gw.getActiveWindow()
     out = cv2.VideoWriter("output.avi", fourcc, fps, tuple(w.size))
     for i in range(int(record_seconds * fps)):
         img = pyautogui.screenshot(region=(w.left, w.top, w.width, w.height))
