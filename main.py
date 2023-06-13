@@ -6,19 +6,29 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 from dotenv import load_dotenv
+import threading
+import cv2
+import numpy as np
+import pyautogui
+import pygetwindow as gw
+import sys
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+
 
 load_dotenv()
-username=os.getenv('username')
+username=os.getenv('userid')
 password=os.getenv('password')
+print(username, password)
 
-profile_directory = r'/Users/muneebmuhammad/Library/Application Support/Google/Chrome/Profile 1'
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument(f'user-data-dir={profile_directory}')
-chrome_options.add_argument("--start-maximized")
+# profile_directory = r'/Users/muneebmuhammad/Library/Application Support/Google/Chrome/Profile 1'
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_argument(f'user-data-dir={profile_directory}')
+# chrome_options.add_argument("--start-maximized")
 # chrome_options.add_argument("--headless=True")
 
-driver = webdriver.Chrome(options=chrome_options)
-# driver = webdriver.Chrome()
+service = ChromeService(executable_path=ChromeDriverManager().install())
+driver = webdriver.Chrome(service=service)
 
 # login to mailchimp account given username and password
 def login(username, password):
@@ -153,11 +163,40 @@ def integrationWithShopify():
     print("goint to integration with shopify")
     driver.get("https://us21.admin.mailchimp.com/integrations/app?name=shopify")
 
-login(username, password)
-# goToClassicEmailCreation()
-# openCompaign()
-integrationWithShopify()
+def script_execution():
+    login(username, password)
+    # goToClassicEmailCreation()
+    # openCompaign()
+    integrationWithShopify()
+    input("Enter:")
 
+def recording():
+    window_name = sys.argv[1]
+    fourcc = cv2.VideoWriter_fourcc(*"XVID")
+    fps = 12.0
+    record_seconds = 100
+    w = gw.getWindowsWithTitle(window_name)[0]
+    out = cv2.VideoWriter("output.avi", fourcc, fps, tuple(w.size))
+    for i in range(int(record_seconds * fps)):
+        img = pyautogui.screenshot(region=(w.left, w.top, w.width, w.height))
+        frame = np.array(img)
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        out.write(frame)
+        if cv2.waitKey(1) == ord("q"):
+            break
+    cv2.destroyAllWindows()
+    out.release()
+    driver.quit()
 
-input("Enter:")
+# Create threads for script execution and recording
+script_thread = threading.Thread(target=script_execution)
+recording_thread = threading.Thread(target=recording)
+
+# Start the threads
+script_thread.start()
+recording_thread.start()
+
+# Wait for both threads to complete
+script_thread.join()
+recording_thread.join()
 
