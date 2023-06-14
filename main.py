@@ -21,14 +21,16 @@ username=os.getenv('userid')
 password=os.getenv('password')
 print(username, password)
 
-# profile_directory = r'/Users/muneebmuhammad/Library/Application Support/Google/Chrome/Profile 1'
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument(f'user-data-dir={profile_directory}')
-# chrome_options.add_argument("--start-maximized")
-# chrome_options.add_argument("--headless=True")
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
+
+# Setup Chrome options
+chrome_options = Options()
+# chrome_options.add_argument("--headless")
+
 
 service = ChromeService(executable_path=ChromeDriverManager().install())
-driver = webdriver.Chrome(service=service)
+driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # login to mailchimp account given username and password
 def login(username, password):
@@ -164,28 +166,30 @@ def integrationWithShopify():
     driver.get("https://us21.admin.mailchimp.com/integrations/app?name=shopify")
 
 def script_execution():
-    login(username, password)
+    # login(username, password)
     # goToClassicEmailCreation()
     # openCompaign()
-    integrationWithShopify()
+    # integrationWithShopify()
+    pricing()
     input("Enter:")
 
 def recording():
     window_name = sys.argv[1]
-    fourcc = cv2.VideoWriter_fourcc(*"XVID")
-    fps = 12.0
+    # fourcc = cv2.VideoWriter_fourcc(*"XVID")
+    fps = 1.0
     record_seconds = 100
-    w = gw.getActiveWindow()
-    out = cv2.VideoWriter("output.avi", fourcc, fps, tuple(w.size))
+    # w = gw.getActiveWindow()
+    # out = cv2.VideoWriter("output.avi", fourcc, fps, tuple(w.size))
     for i in range(int(record_seconds * fps)):
-        img = pyautogui.screenshot(region=(w.left, w.top, w.width, w.height))
-        frame = np.array(img)
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        out.write(frame)
-        if cv2.waitKey(1) == ord("q"):
-            break
-    cv2.destroyAllWindows()
-    out.release()
+        # img = pyautogui.screenshot(region=(w.left, w.top, w.width, w.height))
+        # frame = np.array(img)
+        # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        # out.write(frame)
+        # if cv2.waitKey(1) == ord("q"):
+        #     break
+        driver.save_screenshot(f"dataa/{i}.png")
+    # cv2.destroyAllWindows()
+    # out.release()
     driver.quit()
 
 # Create threads for script execution and recording
@@ -199,4 +203,5 @@ recording_thread.start()
 # Wait for both threads to complete
 script_thread.join()
 recording_thread.join()
+
 
