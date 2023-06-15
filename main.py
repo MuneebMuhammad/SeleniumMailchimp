@@ -13,7 +13,10 @@ import pyautogui
 import pywinctl as gw
 import sys
 from webdriver_manager.chrome import ChromeDriverManager
+from PIL import Image
+import io
 from selenium.webdriver.chrome.service import Service as ChromeService
+from time import sleep
 
 
 load_dotenv()
@@ -91,12 +94,6 @@ def openCompaign():
     print("Going to draft page")
     driver.get("https://us21.admin.mailchimp.com/campaigns/#t:campaigns-list")
     iframes = driver.find_elements(By.TAG_NAME, "iframe")
-    # for index, iframe in enumerate(iframes):
-    #     driver.switch_to.frame(iframe)
-    #     compaign = driver.find_elements(By.CSS_SELECTOR, 'li.c-campaignManager_slat')
-    #     if len(compaign) >0:
-    #         print("found:", index)
-
 
     driver.switch_to.frame(iframes[0])
     compaigns = driver.find_elements(By.CSS_SELECTOR, 'li.c-campaignManager_slat')
@@ -126,7 +123,6 @@ def signUp():
     pricing()
     WebDriverWait(driver, 10).until(EC.title_contains("Pricing Plans"))
     freePlanLink = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//a[@href='https://mailchimp.com/signup/?plan=free_monthly_plan_v0']")))
-    # freePlanLink = driver.find_element(By.XPATH, "//a[@href='https://mailchimp.com/signup/?plan=free_monthly_plan_v0']")
     freePlanLink.click()
 
     WebDriverWait(driver, 10).until(EC.title_contains("Signup"))
@@ -174,22 +170,27 @@ def script_execution():
     input("Enter:")
 
 def recording():
-    window_name = sys.argv[1]
-    # fourcc = cv2.VideoWriter_fourcc(*"XVID")
+    fourcc = cv2.VideoWriter_fourcc(*"XVID")
     fps = 1.0
     record_seconds = 100
-    # w = gw.getActiveWindow()
-    # out = cv2.VideoWriter("output.avi", fourcc, fps, tuple(w.size))
+    out = cv2.VideoWriter("output.avi", fourcc, fps, (1280, 720))
     for i in range(int(record_seconds * fps)):
-        # img = pyautogui.screenshot(region=(w.left, w.top, w.width, w.height))
-        # frame = np.array(img)
-        # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        # out.write(frame)
-        # if cv2.waitKey(1) == ord("q"):
-        #     break
+        screenshot = driver.get_screenshot_as_png()
+        # Convert to OpenCV image
+        image = Image.open(io.BytesIO(screenshot))
+        frame = np.array(image)
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        image_resized = cv2.resize(frame, (1280, 720))
+        out.write(image_resized)
+        # Pause for a while
+        sleep(0.2)
+
+        if cv2.waitKey(1) == ord("q"):
+            break
+
         driver.save_screenshot(f"dataa/{i}.png")
     # cv2.destroyAllWindows()
-    # out.release()
+    out.release()
     driver.quit()
 
 # Create threads for script execution and recording
@@ -203,5 +204,3 @@ recording_thread.start()
 # Wait for both threads to complete
 script_thread.join()
 recording_thread.join()
-
-
