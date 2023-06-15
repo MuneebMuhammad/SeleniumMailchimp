@@ -70,7 +70,25 @@ def getSeleniumElement(index):
         seleniumElement = driver.find_element(By.XPATH, f"//*[@class='{classes}']")
     return seleniumElement
 
+def performElementAction(seleniumElement):
+    print(seleniumElement)
+    tag_name = seleniumElement.tag_name
+    try:
+        if tag_name == 'a' or tag_name == 'button':
+            seleniumElement.click()
+        elif tag_name == 'input' or tag_name == 'password':
+            if seleniumElement.type == 'submit' or seleniumElement.type == 'button':
+                seleniumElement.click()
+            else:
+                print("waiting for user to fill fields")
+        else:
+            print("text:", seleniumElement.text)
+    except:
+        print("Interaction Error. User take step")
 
-de = getSeleniumElement(1)
 
+de = getSeleniumElement(6)
+
+performElementAction(de)
+input("enter")
 driver.quit()
