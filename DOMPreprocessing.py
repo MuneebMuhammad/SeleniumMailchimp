@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup, NavigableString
 # from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.common.by import By
+from selenium.webdriver.common.by import By
 # import time
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.support import expected_conditions as EC
@@ -59,5 +59,18 @@ for i in orderdElement:
     d = i.name + " : " + (i.get("type").strip() if i.name == "input" else i.get_text().strip().replace("\n", " "))
     f.write(d+'\n')
 
+
+def getSeleniumElement(index):
+    attributes = orderdElement[index].attrs
+    seleniumElement = None
+    if 'id' in attributes:
+        seleniumElement = driver.find_element(By.ID, attributes["id"])
+    elif 'class' in attributes:
+        classes = ' '.join(attributes['class'])
+        seleniumElement = driver.find_element(By.XPATH, f"//*[@class='{classes}']")
+    return seleniumElement
+
+
+de = getSeleniumElement(1)
 
 driver.quit()
