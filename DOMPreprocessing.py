@@ -56,10 +56,11 @@ orderdElement = OrderedSet(mainElements)
 f = open(f"data.txt", "w")
 f.write("Title : " + title.text + "\n")
 for i in orderdElement:
-    d = i.name + " : " + (i.get("type").strip() if i.name == "input" else i.get_text().strip().replace("\n", " "))
+    # write the element name and, its type and placeholder if input field or text if not input filed
+    d = i.name + " : " + (i.get("type").strip() + " : " + (i.get("placeholder") if "placeholder" in i.attrs else "No Placeholder") if i.name == "input" else i.get_text().strip().replace("\n", " "))
     f.write(d+'\n')
 
-
+# this will convert the beautiful soup tag in orderedElement[index] to interactable selenium object
 def getSeleniumElement(index):
     attributes = orderdElement[index].attrs
     seleniumElement = None
@@ -70,6 +71,7 @@ def getSeleniumElement(index):
         seleniumElement = driver.find_element(By.XPATH, f"//*[@class='{classes}']")
     return seleniumElement
 
+# after element selected perform relevant action for each element
 def performElementAction(seleniumElement):
     print(seleniumElement)
     tag_name = seleniumElement.tag_name
