@@ -29,7 +29,7 @@ from selenium.webdriver.chrome.options import Options
 
 # Setup Chrome options
 chrome_options = Options()
-# chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")
 
 
 service = ChromeService(executable_path=ChromeDriverManager().install())
