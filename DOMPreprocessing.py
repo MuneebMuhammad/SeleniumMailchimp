@@ -34,7 +34,7 @@ chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 driver = webdriver.Chrome(service=service)
 
 
-url = "https://qalam.nust.edu.pk/"
+url = "https://mailchimp.com/"
 driver.get(url)
 source = driver.page_source
 soup = BeautifulSoup(source, "html.parser")
@@ -71,7 +71,10 @@ f.write("Title : " + title.text)
 for i in orderdElement:
     # write the element name and, its type and placeholder if input field or text if not input filed
     d = i.name + " : " + (i.get("type").strip() + " : " + (i.get("name") if "name" in i.attrs else "No Name") if i.name == "input" else i.get_text().strip().replace("\n", " "))
-    f.write('\n'+d)
+    try:
+        f.write('\n'+d)
+    except:
+        print("unicode not available")
 
 # this will convert the beautiful soup tag in orderedElement[index] to interactable selenium object
 def getSeleniumElement(index):
