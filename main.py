@@ -31,7 +31,7 @@ from selenium.webdriver.chrome.options import Options
 # userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 chrome_options = Options()
 chrome_options.add_argument("--headless")
-chrome_options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36')
+chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 chrome_options.add_argument("--disable-web-security")
 
 

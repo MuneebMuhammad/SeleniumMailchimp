@@ -1,3 +1,5 @@
+import os
+
 from selenium import webdriver
 from bs4 import BeautifulSoup, NavigableString
 # from selenium.webdriver.common.keys import Keys
@@ -16,8 +18,19 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from ordered_set import OrderedSet
+from selenium.webdriver.chrome.options import Options
+from dotenv import load_dotenv
+
+load_dotenv()
 
 service = ChromeService(executable_path=ChromeDriverManager().install())
+
+chrome_options = Options()
+# chrome_options.add_argument("--headless")
+chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
+# chrome_options.add_argument("--disable-web-security")
+
+
 driver = webdriver.Chrome(service=service)
 
 
@@ -91,9 +104,8 @@ def performElementAction(seleniumElement):
     except:
         print("Interaction Error. User take step")
 
-
+input ("enter")
 de = getSeleniumElement(147)
 
 performElementAction(de)
-input("enter")
 driver.quit()
