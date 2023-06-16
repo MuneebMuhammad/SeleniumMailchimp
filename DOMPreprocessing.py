@@ -34,7 +34,7 @@ chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 driver = webdriver.Chrome(service=service)
 
 
-url = "https://www.anaconda.org"
+url = "https://stackoverflow.com/users/signup?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
 driver.get(url)
 source = driver.page_source
 soup = BeautifulSoup(source, "html.parser")
