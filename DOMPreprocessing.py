@@ -54,21 +54,24 @@ orderdElement = OrderedSet(mainElements)
 
 # write data to file
 f = open(f"data.txt", "w")
-f.write("Title : " + title.text + "\n")
+f.write("Title : " + title.text)
 for i in orderdElement:
     # write the element name and, its type and placeholder if input field or text if not input filed
-    d = i.name + " : " + (i.get("type").strip() + " : " + (i.get("placeholder") if "placeholder" in i.attrs else "No Placeholder") if i.name == "input" else i.get_text().strip().replace("\n", " "))
-    f.write(d+'\n')
+    d = i.name + " : " + (i.get("type").strip() + " : " + (i.get("name") if "name" in i.attrs else "No Name") if i.name == "input" else i.get_text().strip().replace("\n", " "))
+    f.write('\n'+d)
 
 # this will convert the beautiful soup tag in orderedElement[index] to interactable selenium object
 def getSeleniumElement(index):
     attributes = orderdElement[index].attrs
     seleniumElement = None
-    if 'id' in attributes:
-        seleniumElement = driver.find_element(By.ID, attributes["id"])
-    elif 'class' in attributes:
-        classes = ' '.join(attributes['class'])
-        seleniumElement = driver.find_element(By.XPATH, f"//*[@class='{classes}']")
+    try:
+        if 'id' in attributes:
+            seleniumElement = driver.find_element(By.ID, attributes["id"])
+        elif 'class' in attributes:
+            classes = ' '.join(attributes['class'])
+            seleniumElement = driver.find_element(By.XPATH, f"//*[@class='{classes}']")
+    except:
+        print("Error: Can't get the selenium element")
     return seleniumElement
 
 # after element selected perform relevant action for each element
@@ -89,7 +92,7 @@ def performElementAction(seleniumElement):
         print("Interaction Error. User take step")
 
 
-de = getSeleniumElement(6)
+de = getSeleniumElement(147)
 
 performElementAction(de)
 input("enter")
