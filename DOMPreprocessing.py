@@ -107,8 +107,8 @@ def performElementAction(seleniumElement):
     except:
         print("Interaction Error. User take step")
 
-input ("enter")
-de = getSeleniumElement(147)
+# input ("enter")
+# de = getSeleniumElement(147)
 
-performElementAction(de)
+# performElementAction(de)
 driver.quit()

@@ -1,0 +1,618 @@
+Title : Marketing, Automation & Email Platform | Mailchimp
+a : ___
+a : Skip to main content
+p : Save 75% for 12 months
+span : Save 75% for 12 months - limited time offer. Get started today
+a : Get started today
+label : Search
+input : search : q
+h3 : Try searching for
+a : email templates
+a : newsletter
+a : integrations
+a : quickbooks
+a : pricing plans
+button : Main Menu
+span : This page is now available in other languages.
+span : EN
+span : EN
+p : English
+span : ES
+p : Español
+span : FR
+p : Français
+span : PT
+p : Português
+span : DE
+p : Deutsch
+span : IT
+p : Italiano
+a : Search
+label : Search Mailchimp
+form : Search Mailchimp                                            Search Mailchimp                                       Reset
+input : search : q
+button : Search Mailchimp
+input : reset : No Name
+button : Reset
+h3 : Try searching for
+a : email templates
+a : newsletter
+a : integrations
+a : quickbooks
+a : pricing plans
+button : Products
+h2 : We'll Help You            —
+span : —
+a : Get Your Business Online
+a : Websites
+p : Create a free website that comes with built-in marketing tools.
+a : Online Stores
+p : Launch a store that comes with everything you need to start selling, including marketing tools.
+a : Appointment Scheduling
+p : Add online scheduling to your website so people book appointments with you.
+a : Domains
+p : Claim a custom domain to make it easy for people to find your brand on the web.
+a : See overview
+a : Market Your Business
+a : Email
+p : Engage your audience with beautiful, branded emails.
+a : Landing Pages
+p : Design landing pages that grow your audience and help you sell more stuff.
+a : Digital Ads
+p : Reach people on Facebook, Instagram, and across the web.
+a : Social Media
+p : Build your following with targeted ads and organic posting on Facebook, Instagram, and Twitter.
+a : Campaign Manager
+p : Streamline your marketing planning and consolidate multichannel campaigns into a single view.
+a : See overview
+h2 : Platform Features            —
+a : Audience Management
+a : Marketing CRM
+p : Get to know your audience and find new ways to market to them.
+a : Signup Forms
+p : Grow your audience with a pop-up or embedded form.
+a : Segmentation
+p : Segment your audience based on shared traits.
+a : Behavioral Targeting
+p : Target your messages based on people's purchase behavior, app activity, and more.
+a : Predicted Demographics
+p : Get predictive insights about your contacts so you can personalize your marketing.
+a : Tags & Contact Profiles
+p : Keep track of what you know about your people with customizable tags.
+a : All audience tools
+a : Creative Tools
+a : Content Studio
+p : Sync, store, and edit all your images and files in one place.
+a : Creative Assistant
+p : Get beautiful, on-brand designs made for you with the power of AI.
+a : Dynamic Content
+p : Personalize individual content blocks within your emails.
+a : Subject Line Helper
+p : Get real-time feedback on how to refine your subject lines.
+a : Campaign Templates
+p : 100+ pre-designed email and landing page templates that fit any message.
+a : All creative tools
+a : Marketing Automation
+a : Customer Journeys
+p : Design personalized journeys using conditional logic and branching points.
+a : Integrations
+p : Sync your store data and connect other tools to unlock more automation features.
+a : All automation tools
+a : Insights & Analytics
+a : Reports
+p : Track sales and campaign performance in easy-to-digest reports.
+a : Smart Recommendations
+p : Get personalized recommendations to help you make your next move.
+a : A/B Testing
+p : Test different versions of a single email to see how small changes can impact your results.
+a : Surveys
+p : Gauge interest and customer satisfaction by gathering feedback.
+a : Content Optimizer
+p : Make your email content more engaging with personalized suggestions for improvement.
+a : All insights tools
+h2 : Not sure where to start?            —
+button : What's Right for Me?
+a : E-Commerce and Retail
+p : Drive traffic and boost sales with a marketing platform that seamlessly integrates with your store.
+a : Mobile and Web Apps
+a : Startups
+a : Agencies & Freelancers
+p : Get perks and tools for managing clients when you join our free community, Mailchimp & Co.
+a : Developers
+p : Integrate marketing data, send transactional emails, and build integrations using our APIs and documentation.
+span : Talk to Sales:
+span : +1 (800) 315-5939
+em : Product Updates
+p : Get the latest on new features, product improvements, and other announcements.
+a : See what's new
+button : Resources
+h2 : Learn            —
+a : Mailchimp 101
+a : Help Center
+a : Marketing Library
+p : Explore our collection of resources to help build your business and boost your digital marketing.
+h3 : Marketing tools and tactics—
+a : E-Commerce
+a : Digital Content
+a : Marketing Automations
+a : CRM
+a : Websites
+a : Email
+a : Social Media
+em : E-commerce Automations: Time-Saving Techniques for E-commerce
+p : See how Mailchimp’s e-commerce automations can save you time and help you convert more first-time buyers into repeat customers.
+h3 : Business Stages—
+a : Prep & Start
+p : Learn to write a business plan, build a brand, and turn your ambition into a successful business.
+a : Manage & Run
+p : Off and running? Find tips to help you lead, manage, and make your business even better.
+a : Grow & Scale
+p : Whether you want to grow your team, your following, or your sales, we've got ideas.
+a : See overview
+h2 : Community            —
+button : For Freelancers & Agencies
+p : Join our community for freelancers and agencies to unlock tools for managing clients and perks to grow your business.
+a : Features for helping clients
+p : Get access to tools in your Mailchimp account designed just for freelancers  and agencies like you.
+a : A guided path to partnership
+p : See all the perks you can unlock as you grow toward becoming a Mailchimp partner.
+a : Get inspired by your peers
+p : Catch up on tips and marketing wisdom from freelancers and agencies around the world.
+button : For Developers
+p : Our APIs make it easy to bring data from your app into Mailchimp, so you can manage your audience, trigger event-based emails, and more.
+a : Marketing API
+p : Use custom data from your app to power timely, relevant marketing campaigns.
+a : Transactional API
+p : Send targeted and event-driven emails and handle and parse inbound email from your users.
+a : Release Notes
+p : The latest updates to our APIs and developer tools.
+a : Transactional Email
+p : Deliver targeted, event-driven messages at scale using our Transactional API or SMTP integration.
+a : Hire A Trusted Partner
+em : App Integrations
+p : Connect your digital tools so you can do more with your marketing.
+a : See all integrations
+button : Inspiration
+a : Podcasts
+p : A collection of original content that celebrates the entrepreneurial spirit.
+h3 : Podcasts            —
+em : New Season: Going Through It
+p : Ashley C. Ford talks to guests about how they navigated a pivotal moment in their lives.
+em : Call Paul Returns
+p : Stories of values-driven business success with Paul Jarvis.
+em : New podcast from Björk
+p : In Sonic Symbolism, hear Björk and her collaborators discuss the making of her last 9 albums.
+a : Listen
+a : Series
+p : A collection of original content that celebrates the entrepreneurial spirit.
+h3 : ORIGINAL SERIES            —
+em : New Season: Second Act
+p : Examine the journeys of 5 individuals who pivoted their careers to pursue their passions.
+em : Switching Off
+p : Family comes first, especially this time of year.
+em : A Family Business
+p : Kick start the holidays with this Second Act episode chock full of food, family, and tradition.
+a : Watch
+a : Films
+p : A collection of original content that celebrates the entrepreneurial spirit.
+h3 : Films            —
+em : Crown Candy
+p : This 100-year-old candy store in St. Louis is rich in history—and chocolate.
+em : Welcome to Noodle School
+p : Students come here to learn from the best and get their shot at a billion-dollar industry.
+a : Expert Insights
+p : Case studies and how-tos to take you from startup to scale-up and beyond.
+h3 : Workshop            —
+em : How to win customers without social media
+p : As social media ads become less effective, how else should you go about acquiring new customers?
+em : The $10 million T-shirt
+p : How did a ‘Black Founders Matter’ T-shirt design transform into a venture capital firm? According to founder Marceau Michel, it was almost completely by accident.
+a : All articles
+a : Industry Trends
+p : Industry deep dives, macro trends, and profiles of fascinating businesses and founders.
+h3 : BRIEFINGS            —
+em : Stepping away at the right time
+p : For Orange Bus founders Julian Leighton and Mike Parker, leaving the business was always the plan.
+em : What's in a name?
+p : At first glance, the name of your business might not seem like a crucial factor in your success – but getting it wrong could cause complications. Here are the basic elements to consider.
+a : All articles
+a : Smart Living
+p : Self-improvement, brands to check out and things to see and do – from food to fashion.
+h3 : LIFE            —
+em : Starting your day right: Laurence Leenaert
+p : Laurence Leenaert, founder and designer at LRNCE, a handmade ceramics and lifestyle brand in Marrakesh, on her morning routine.
+em : How I live: Kerol Izwan
+p : The founder of Malaysian publishing and lifestyle company Musotrees on why he quit the nine to five (and his career as a biologist) to build the thing that makes him happy.
+a : All articles
+a : Pricing
+span : Talk to Sales
+a : +1 (800) 315-5939
+p : Not in the US? Contact our sales team here.   Support Links Pricing Plans Contact Technical Support Knowledge Base
+a : here
+strong : Support Links
+a : Pricing Plans
+a : Contact Technical Support
+a : Knowledge Base
+a : View Dashboard
+a : Log In
+a : Start Free Trial
+span : Sales:
+span : Search
+a : Log In
+a : Sign Up
+a : Log In
+a : Sign Up
+div : Hi, %s
+a : Audience
+a : Campaigns
+a : Account
+a : View Dashboard
+button : Close
+h1 : Turn Emails into Revenue
+p : Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.
+a : Sign Up
+h2 : Convert with Automations
+p : Send the right message at the right time to convert more customers.
+a : Learn more
+h2 : Scale with AI & Analytics
+p : 20+ AI and data tools to create content, customize designs, and analyze performance.
+a : Learn more
+h2 : Target with Segmentation
+p : Boost customer loyalty by predicting the right ones to target.
+a : Learn more
+h2 : Sync with Integrations
+p : Connect more tools, get more data, save time, and make better decisions.
+a : Learn more
+div : Limited Time Offer
+h2 : Save 75% for 12 months
+span : 75%
+div : Mailchimp Recommends
+h3 : Premium
+p : Our most advanced tools, unlimited contacts, and priority support; built for teams.
+p : Starts at
+s : $350
+div : $
+div : 87
+div : 50
+p : /month for 12 months based on 10,000 contacts*
+p : Starts at $87.5 per month for  contacts
+span : Phone & Priority Support
+h2 : Phone & Priority Support
+p : Priority email and chat support 24/7.  Phone support available during business hours.
+h2 : Phone & Priority Support
+span : Custom-Coded and Pre-built Email Templates
+h2 : Custom-Coded and Pre-built Email Templates
+strong : Custom-Coded Templates
+p : Custom-Coded Templates Take control of your email design by using your own custom-coded HTML templates.
+strong : Pre-Built Email Templates
+p : Pre-Built Email Templates Enhance your emails with customizable templates for any occasion.  Additional Marketplace templates available as add-ons for Standard and Premium plans.
+h2 : Custom-Coded and Pre-built Email Templates
+span : Multivariate and A/B Testing
+h2 : Multivariate & A/B Testing
+strong : Multivariate Testing
+p : Multivariate Testing Test up to eight campaign variations to see what changes make the biggest impact on engagement and conversion.
+strong : A/B Testing
+p : A/B Testing Test different subject lines, design, content, and send-times so you can learn what works best for your audience.
+h2 : Multivariate & A/B Testing
+span : Enhanced Automated Customer Journeys
+h2 : Enhanced Automated Customer Journeys
+strong : Essentials: Customer Journey Builder
+p : Essentials: Customer Journey Builder Build automated workflows to send relevant messages based on how your customers interact with your brand.
+strong : Standard & Premium: Customer Journey Builder + Branching Points
+p : Standard & Premium: Customer Journey Builder + Branching Points Create and automate unique, adaptable journeys for any customer scenario with full functionality of our Customer Journey Builder.
+h2 : Enhanced Automated Customer Journeys
+span : Dedicated Personalized Onboarding
+h2 : Dedicated Personalized Onboarding
+p : Partner with a dedicated onboarding specialist with up to 4 weekly consultations to help develop a personalized action plan, provide in-depth product walkthroughs, and be your point of contact for anything you need.
+p : Note: this service is currently available in English, Spanish, and Portuguese only.
+h2 : Dedicated Personalized Onboarding
+span : Predictive Segmentation
+h2 : Predictive Segmentation
+p : Target the right customers to win more repeat-business with our predictive analytics tools that can estimate future the buying behavior of your customers.
+h2 : Predictive Segmentation
+span : Campaign Manager
+h2 : Campaign Manager
+p : Streamline your marketing planning and consolidate multichannel campaigns into a single view.
+h2 : Campaign Manager
+a : See all plan details
+div : Mailchimp Recommends
+h3 : Standard
+p : Sell even more with personalization, optimization tools, and enhanced automations.
+s : $20
+div : 5
+p : /month for 12 months based on 500 contacts*
+p : Starts at $5 per month for  contacts
+span : 24/7 Email & Chat Support
+h2 : 24/7 Email & Chat Support
+p : Email and chat support available 24/7.
+h2 : 24/7 Email & Chat Support
+h2 : Custom-Coded and Pre-built Email Templates
+p : Custom-Coded Templates Take control of your email design by using your own custom-coded HTML templates.
+h2 : Custom-Coded and Pre-built Email Templates
+span : A/B Testing
+h2 : A/B Testing
+p : Test different subject lines, design, content, and send-times so you can learn what works best for your audience.
+h2 : A/B Testing
+h2 : Enhanced Automated Customer Journeys
+h2 : Enhanced Automated Customer Journeys
+span : Personalized Onboarding
+h2 : Personalized Onboarding
+p : Get 1 personalized consultation to help send your first email, segment audiences, set up  automations, sync integrations, and more.
+p : Note: this service is currently available in English only.
+h2 : Personalized Onboarding
+h2 : Predictive Segmentation
+h2 : Predictive Segmentation
+h2 : Campaign Manager
+h2 : Campaign Manager
+h3 : Essentials
+p : Send the right content at the right time with testing and scheduling features.
+s : $13
+div : 3
+div : 25
+p : Starts at $3.25 per month for  contacts
+h2 : 24/7 Email & Chat Support
+h2 : 24/7 Email & Chat Support
+span : Pre-built Email Templates
+h2 : Pre-built Email Templates
+p : Enhance your emails with customizeable templates for any occassion.  Additional Marketplace templates available as add-ons for Standard and Premium plans.
+h2 : Pre-built Email Templates
+h2 : A/B Testing
+h2 : A/B Testing
+span : Basic Automated Customer Journeys
+h2 : Basic Automated Customer Journeys
+p : Standard & Premium: Customer Journey Builder + Branching Points Create and automate unique, adaptable journeys for any customer scenario with full functionality of our Customer Journey Builder."
+h2 : Basic Automated Customer Journeys
+h2 : Personalized Onboarding
+h2 : Personalized Onboarding
+p : Predictive Segmentation
+p : Campaign Manager
+h3 : Free
+p : Easily create email campaigns and learn more about your customers.
+p : Starts at
+s : $0
+div : 0
+p : /month based on 500 contacts*
+p : Starts at $0 per month for  contacts
+span : Email support for first 30 days
+h2 : Email support for first 30 days
+p : Email support for first 30 days.
+h2 : Email support for first 30 days
+h2 : Pre-built Email Templates
+h2 : Pre-built Email Templates
+p : A/B Testing
+p : Basic Automated Customer Journeys
+p : Onboarding
+p : Easily create email campaigns and learn more about your customers.
+h2 : Email support for first 30 days
+h2 : Email support for first 30 days
+h2 : Pre-built Email Templates
+h2 : Pre-built Email Templates
+p : Send the right content at the right time with testing and scheduling features.
+h2 : 24/7 Email & Chat Support
+h2 : 24/7 Email & Chat Support
+h2 : Pre-built Email Templates
+h2 : Pre-built Email Templates
+h2 : A/B Testing
+h2 : A/B Testing
+h2 : Basic Automated Customer Journeys
+h2 : Basic Automated Customer Journeys
+h2 : Personalized Onboarding
+h2 : Personalized Onboarding
+p : Sell even more with personalization, optimization tools, and enhanced automations.
+h2 : 24/7 Email & Chat Support
+h2 : 24/7 Email & Chat Support
+h2 : Custom-Coded and Pre-built Email Templates
+h2 : Custom-Coded and Pre-built Email Templates
+h2 : A/B Testing
+h2 : A/B Testing
+h2 : Enhanced Automated Customer Journeys
+h2 : Enhanced Automated Customer Journeys
+h2 : Personalized Onboarding
+h2 : Personalized Onboarding
+h2 : Predictive Segmentation
+h2 : Predictive Segmentation
+h2 : Campaign Manager
+h2 : Campaign Manager
+p : Our most advanced tools, unlimited contacts, and priority support; built for teams.
+h2 : Phone & Priority Support
+h2 : Phone & Priority Support
+h2 : Custom-Coded and Pre-built Email Templates
+h2 : Custom-Coded and Pre-built Email Templates
+h2 : Multivariate & A/B Testing
+h2 : Multivariate & A/B Testing
+h2 : Enhanced Automated Customer Journeys
+h2 : Enhanced Automated Customer Journeys
+h2 : Dedicated Personalized Onboarding
+h2 : Dedicated Personalized Onboarding
+h2 : Predictive Segmentation
+h2 : Predictive Segmentation
+h2 : Campaign Manager
+h2 : Campaign Manager
+span : *
+span : See
+span : Offer Terms
+p : Introductory Offer Terms: 75% off the monthly base price of Mailchimp Premium, Standard or Essentials for the first 12 (twelve) months of service, starting from the date of enrollment followed by the then-currently monthly list price based on your contacts and email sends. Your account will automatically be charged on a monthly basis until you cancel. If you add or remove features and/or services, your service fees will be adjusted accordingly. If you upgrade or downgrade to a different plan, the price will change to the then current list price for such relevant subscription. Taxes may be applied where applicable. Accounts will be placed on hold if no valid payment method is on file after the promotional period ends. To be eligible for this offer you must be a new Mailchimp customer or existing customer on the Free plan in select countries, and sign up for the Premium, Standard or Essentials monthly plan using the "Buy Now" button. Offer available for a limited time only. Discount has no cash value. Mailchimp accounts with compliance holds or violations are ineligible. You can pause your subscription or delete your Mailchimp account at any time via the Settings section in the Account & Billing area. Pausing your monthly plan or deleting your Mailchimp account will become effective immediately. You can downgrade your monthly plan in the Monthly Plans or Credits page in the Billing Section. Downgrading your monthly plan will become effective at the end of the monthly billing period. You will not receive a refund for previously billed charges. You will immediately lose the offer if you cancel your account during or prior to the end of the promotional period. Pausing your account does not pause the promotional period and the promotion will expire 12 months from when it was originally applied to your account. Changing your Marketing plan does not extend the duration of the promotional period and the promotion will expire 12 months from when it was originally applied to your account. These offer terms do not replace Mailchimp’s standard Terms of Use and Global Privacy Statement, which continue to apply to your use of Mailchimp. All personal information will be handled in accordance with Mailchimp’s Global Privacy Statement. Terms, conditions, pricing, special features, and service and support options subject to change without notice.
+strong : *
+a : Overages
+p : *Overages apply if contact or email send limit is exceeded. Free plan sending  will be paused if contact or email send limit is exceeded.
+span : Learn more
+p : To see the monthly email send limit included with each specific plan, click to see all plan details. If your plan's contact or email send limit is exceeded, you will be charged for overages. (except for Free plans, where sending will be paused until the next monthly plan cycle).
+a : see all plan details
+a : overages
+p : Pricing displayed based on the following:
+strong : Premium Plan
+p : Premium Plan includes 10,000 contacts. The monthly email send limit for Premium plans is 15 times your maximum contact count. Standard Plan includes 500 contacts.The monthly email send limit for Standard plans is 12 times your maximum contact count. Essentials Plan includes 500 contacts. The monthly email send limit for Essentials plans is 10 times your maximum contact count. Free Plan includes up to 500 contacts. Select your audience size to calculate your price. The monthly email send limit for the Free plan is 1,000 sends (daily limit of 500).
+strong : Standard Plan
+strong : Essentials Plan
+strong : Free Plan
+strong : NON-USD Pricing:
+p : NON-USD Pricing: Actual price may vary. Prices displayed are estimates based on current exchange rates. Exact amount charged will vary and depends on the exchange rate at the time of payment processing. Prices displayed exclude any applicable taxes and fees, which will be added to the cost of all services purchased. For exact base pricing please refer to prices listed in USD.
+a : See all plan details
+section : Generate up to 4x more orders* with Customer Journey Builder automations                                                                   Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.                                                       Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.                                 Convert more customers at scale  Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.                     Learn more                                           Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.                                                      Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.                                Discover new ways to automate  Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, re-engage existing customers, and win new ones.                     Learn more                                           Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?                                                      Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?                                Keep your emails relevant and your brand growing  Deliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.
+h2 : Generate up to 4x more orders* with Customer Journey Builder automations
+div : Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.                                                       Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.                                 Convert more customers at scale  Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.                     Learn more                                           Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.                                                      Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.                                Discover new ways to automate  Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, re-engage existing customers, and win new ones.                     Learn more                                           Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?                                                      Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?                                Keep your emails relevant and your brand growing  Deliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.
+div : 
+p : Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.
+p : Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.
+h3 : Convert more customers at scale
+p : Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.
+a : Learn more
+p : Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.
+p : Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.
+h3 : Discover new ways to automate
+p : Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, re-engage existing customers, and win new ones.
+p : Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?
+p : Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?
+h3 : Keep your emails relevant and your brand growing
+p : Deliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.
+div : Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.                                                       Web browser shows Customer Journey Builder automations with recommended actions for an abandoned cart.                                 Convert more customers at scale  Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.                     Learn more                                           Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.                                                      Example of pre-built automation to engage customers: customer makes purchase, wait 1 week, send Feedback Request.                                Discover new ways to automate  Get a head start with pre-built journeys that help you cross-sell your products, recover abandoned carts, re-engage existing customers, and win new ones.                     Learn more                                           Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?                                                      Example of automated email for maximum engagement: send to abandoned cart customer with the subject line Forgot something?                                Keep your emails relevant and your brand growing  Deliver personalized emails based on their buying behavior, survey responses, chat interactions, and support tickets to promote loyalty and growth.
+h2 : Keep customers ready to buy with engaging content
+span : Content Optimizer
+p : Learn how your emails compare to the top-performing campaigns in your industry and get data-driven suggestions for improving your copy, imagery, and layout.
+a : Learn more
+lottie-player : getLottieComponent()}>
+span : Creative Assistant
+p : Our Creative Assistant will help you stand out by using AI to create custom designs for your brand.
+a : Learn more
+lottie-player : getLottieComponent()}>
+span : GDPR ready tools
+p : Mailchimp helps you achieve data security and privacy standards for your customers
+a : Learn more
+section : Get up to 88% more revenue* with our Customer Lifetime Value and Likelihood to Purchase segments                                                                   Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.                                                      Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.                                Mailchimp will help you focus on your most loyal and valuable customers.                                 Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.                                                      Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.                                Predict who’s likely to buy again  Create segments of customers based on their lifetime value and likelihood to purchase.                     Learn more                                           2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.                                                      2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.                                Build customers for life  Use our intelligent predictions to tighten your targeting strategy, strengthen customer relationships, and drive repeat sales.                     Learn more
+h2 : Get up to 88% more revenue* with our Customer Lifetime Value and Likelihood to Purchase segments
+div : Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.                                                      Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.                                Mailchimp will help you focus on your most loyal and valuable customers.                                 Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.                                                      Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.                                Predict who’s likely to buy again  Create segments of customers based on their lifetime value and likelihood to purchase.                     Learn more                                           2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.                                                      2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.                                Build customers for life  Use our intelligent predictions to tighten your targeting strategy, strengthen customer relationships, and drive repeat sales.                     Learn more
+div : 
+p : Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.
+p : Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.
+h3 : Mailchimp will help you focus on your most loyal and valuable customers.
+p : Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.
+p : Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.
+h3 : Predict who’s likely to buy again
+p : Create segments of customers based on their lifetime value and likelihood to purchase.
+a : Learn more
+p : 2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.
+p : 2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.
+h3 : Build customers for life
+p : Use our intelligent predictions to tighten your targeting strategy, strengthen customer relationships, and drive repeat sales.
+div : Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.                                                      Example customer profile rated 4/5 stars and tagged Local Customer, New Customer, and Opens Emails.                                Mailchimp will help you focus on your most loyal and valuable customers.                                 Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.                                                      Example of variety of customer tags for segmenting customers, targeting specific groups, and optimizing engagement.                                Predict who’s likely to buy again  Create segments of customers based on their lifetime value and likelihood to purchase.                     Learn more                                           2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.                                                      2 side-by-side sales emails offering the same 10% discount, but with customized messaging to target specific segments.                                Build customers for life  Use our intelligent predictions to tighten your targeting strategy, strengthen customer relationships, and drive repeat sales.                     Learn more
+h2 : Bring in more data, drive more growth with our integrations
+h3 : Canva
+p : Create compelling visuals for your marketing.
+h3 : Mailchimp for Salesforce
+p : Sync your Mailchimp subscribers and Salesforce® leads across platforms.
+h3 : Instagram
+p : Promote and share your Instagram posts in email campaigns.
+h3 : Shopify
+p : Sync Shopify customers, products, and purchase data to Mailchimp.
+h3 : Google Analytics
+p : Unlock powerful insights with campaign, website, or landing page data.
+h3 : WooCommerce
+p : Power your ecommerce store with smart marketing features.
+h3 : QuickBooks Online
+p : Bring together your marketing tools and invoice data.
+h3 : Squarespace Commerce
+p : Market your ecommerce business and drive sales.
+h3 : Zapier
+p : Automatically pass data between web services without a single line of code.
+a : View all 300+ integrations
+strong : *Disclaimers
+li : Mailchimp is the #1 email marketing and automation brand based on competitor brands' publicly available data on worldwide numbers of customers in 2021 / 2022.
+li : Generate up to 4X more orders with Customer Journey Builder automations based on orders generated through user's connected stores with automations versus when they used bulk emails.
+li : Get up to 88% more revenue based on emails sent with predicted segments against non-predictive segmented emails for users with connected stores only. Standard or Premium Plans only.
+p : Availability of features and functionality varies by plan type. For details, view plans and pricing.
+a : plans and pricing
+p : Related Links:
+a : Create a website for free
+a : The Picture Perfect Guide on How to Use Pinterest
+a : ChatGPT: What to Know About This AI Content Writing Tool
+h3 : Products
+a : Why Mailchimp?
+a : Product Updates
+a : Email Marketing
+a : Websites
+a : Transactional Email
+a : How We Compare
+a : GDPR Compliance
+a : Security
+a : Status
+a : Mobile App
+h3 : Resources
+a : Marketing Library
+a : Free Marketing Tools
+a : Marketing Glossary
+a : Integrations Directory
+h3 : Community
+a : Agencies & Freelancers
+a : Developers
+a : Events
+h3 : Company
+a : Our Story
+a : Newsroom
+a : Give Where You Live
+a : Careers
+a : Accessibility
+h3 : Help
+a : Contact Us
+a : Hire an Expert
+a : Help Center
+a : Talk to Sales
+p : Films, podcasts, and original series that celebrate the entrepreneurial spirit.
+a : Check it out
+p : Expert insights, industry trends, and inspiring stories that help you live and work on your own terms.
+a : Learn more
+label : This page is now available in other languages.
+option : English
+option : Español
+option : Français
+option : Português
+option : Deutsch
+option : Italiano
+p : ©2001-2023 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple logo are trademarks of Apple Inc. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc. Privacy | Terms | Legal | Cookie Preferences
+a : Privacy
+a : Terms
+a : Legal
+a : Cookie Preferences
+p : Our website stores cookies on your device and discloses information in accordance with our Cookie Statement. Choose “Customize Settings” to control cookies.  We may collect certain aggregate and anonymized data from your browser independent of your cookie preferences.Cookie Statement
+a : Cookie Statement
+button : Customize settings
+div : Our website stores cookies on your device and discloses information in accordance with our Cookie Statement. Choose “Customize Settings” to control cookies.  We may collect certain aggregate and anonymized data from your browser independent of your cookie preferences.Cookie StatementCustomize settings
+h2 : How Mailchimp Uses Cookies
+div : Mailchimp Sites may request cookies to be set on your device. We use cookies to let us know when you visit our Mailchimp Sites, to understand how you interact with us, to enrich and personalize your user experience, to enable social media functionality and to customize your relationship with Mailchimp, including providing you with more relevant advertising. Click on the different category headings to find out more. You can also change your cookie preferences at any time. Note that blocking some types of cookies may impact your experience on our Mailchimp Sites and the services we are able to offer.             More information
+a : More information
+button : Allow All
+h3 : Manage Consent Preferences
+h4 : Essential Website Cookies
+div : Always Active
+p : These cookies are strictly necessary to provide you with the services and features  available through our site. Because these cookies are strictly necessary to deliver the site, you cannot refuse them without impacting how the site functions.
+h4 : Performance and Functionality Cookies
+input : checkbox : ot-group-id-2
+span : Performance and Functionality Cookies
+p : These cookies are used to enhance the functionality of the site. They help us to customize the site and application (where applicable) for you in order to enhance your experience. Although important to us, these cookies are non-essential to the use of the site. However, without these cookies, certain functionality may become unavailable.
+h4 : Advertising (Targeting) Cookies
+input : checkbox : ot-group-id-4
+span : Advertising (Targeting) Cookies
+p : These cookies are used to make advertising messages more relevant to you and your interests. They also perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed, and in some cases selecting advertisements that are based on your interests.
+h4 : Analytics and Customization Cookies
+input : checkbox : ot-group-id-3
+span : Analytics and Customization Cookies
+p : These cookies collect information to help us understand how the site is being used or how effective our marketing campaigns are. They help us to know which pages are the most and least popular and to see how visitors move around the site. These cookies may be set by us or by third-party providers whose services we have added to our pages.
+title : Back Button
+h3 : Vendors List
+input : text : vendor-search-handler
+title : Search Icon
+title : Filter Icon
+button : Clear
+input : checkbox : No Name
+span : checkbox label
+span : label
+button : Apply
+button : Cancel
+span : Consent
+span : Leg.Interest
+input : checkbox : No Name
+input : checkbox : No Name
+input : checkbox : No Name
+span : View Cookies
+div : Name
+div : cookie name
+button : Confirm My Choices
