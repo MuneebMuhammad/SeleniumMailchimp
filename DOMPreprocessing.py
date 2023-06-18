@@ -34,7 +34,7 @@ chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 driver = webdriver.Chrome(service=service)
 
 
-url = "https://mailchimp.com/"
+url = "https://login.mailchimp.com/?_ga=2.237224900.534960002.1686897808-146391893.1681498352"
 driver.get(url)
 source = driver.page_source
 soup = BeautifulSoup(source, "html.parser")
@@ -66,7 +66,7 @@ find_text_tags(body_tag)
 orderdElement = OrderedSet(mainElements)
 
 # write data to file
-f = open(f"data.txt", "w")
+f = open(f"DOM.txt", "w")
 f.write("Title : " + title.text)
 for i in orderdElement:
     # write the element name and, its type and placeholder if input field or text if not input filed
