@@ -64,6 +64,7 @@ def login(username, password):
     # driver.find_element(By.ID, "submit-btn").click()
 
     if driver.title  == "Two-factor authentication | Mailchimp":
+        print("2FA Auth")
         verificationButton = driver.find_element(By.XPATH, "//a[contains(text(), 'Send Verification code')]")
         verificationButton.click()
 
@@ -168,9 +169,9 @@ def script_execution():
     login(username, password)
     # goToClassicEmailCreation()
     # openCompaign()
-    integrationWithShopify()
+    # integrationWithShopify()
     # pricing()
-    input("Enter:")
+    # input("Enter:")
 
 def recording():
     fourcc = cv2.VideoWriter_fourcc(*"XVID")
