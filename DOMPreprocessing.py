@@ -34,7 +34,7 @@ chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 driver = webdriver.Chrome(service=service)
 
 
-url = "https://qalam.nust.edu.pk/"
+url = "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm"
 driver.get(url)
 input("Enter")
 source = driver.page_source
@@ -96,10 +96,10 @@ def actionHelperFunction(seleniumElement, bsElement):
     tag_name = seleniumElement.tag_name
     try:
         if tag_name == 'a' or tag_name == 'button':
-            seleniumElement.click()
+            driver.execute_script("arguments[0].click();", seleniumElement)
         elif tag_name == 'input' or tag_name == 'password':
             if (bsElement.attrs)["type"] == 'submit' or (bsElement.attrs)["type"] == 'button':
-                seleniumElement.click()
+                driver.execute_script("arguments[0].click();", seleniumElement)
             else:
                 print("waiting for user to fill fields")
         else:
@@ -109,6 +109,7 @@ def actionHelperFunction(seleniumElement, bsElement):
 
 # after element selected perform relevant action for each element
 def performAction(index):
+    index -= 2
     bsElement = orderdElement[index]
     tag_name = bsElement.name
     attributes = bsElement.attrs
@@ -120,10 +121,10 @@ def performAction(index):
         try:
             if tag_name == 'a':
                 seleniumElement = driver.find_element(By.XPATH, f"//a[@href='{attributes['href']}']")
-                seleniumElement.click()
+                driver.execute_script("arguments[0].click();", seleniumElement)
             elif tag_name == 'button':
                 seleniumElement = driver.find_element(By.XPATH, f"//button[text()='{bsElement.text}']")
-                seleniumElement.click()
+                driver.execute_script("arguments[0].click();", seleniumElement)
             elif tag_name == 'input' or tag_name == 'password':
                 css_selector = tag_name
                 for attr, value in (bsElement.attrs).items():
@@ -132,7 +133,7 @@ def performAction(index):
                 seleniumElement = driver.find_element(By.CSS_SELECTOR, css_selector)
 
                 if attributes["type"] == 'submit' or attributes["type"] == 'button':
-                    seleniumElement.click()
+                    driver.execute_script("arguments[0].click();", seleniumElement)
                 else:
                     print("waiting for user to fill fields")
             else:
@@ -143,9 +144,12 @@ def performAction(index):
 
 
 
-d = performAction(1)
+d = performAction(82)
 
 # de = getSeleniumElement(0)
 #
 # performElementAction(de)
 driver.quit()
+
+
+
