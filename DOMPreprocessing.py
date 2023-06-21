@@ -34,13 +34,13 @@ chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 driver = webdriver.Chrome(service=service)
 
 
-url = "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm"
+url = "https://convertkit.com/"
 driver.get(url)
-input("Enter")
-source = driver.page_source
-soup = BeautifulSoup(source, "html.parser")
-
-title = soup.find('title')
+# input("Enter")
+# source = driver.page_source
+# soup = BeautifulSoup(source, "html.parser")
+#
+# title = soup.find('title')
 
 mainElements = []
 
@@ -57,26 +57,34 @@ def find_text_tags(tag):
         for child in tag.children:
             find_text_tags(child)
 
-# Get the body tag
-body_tag = soup.body
+for indexing in range(20):
+    input("Enter")
+    source = driver.page_source
+    soup = BeautifulSoup(source, "html.parser")
 
-# Call the function on the body tag to get main elements
-find_text_tags(body_tag)
+    title = soup.find('title')
 
-# remove redundant elements
-orderdElement = OrderedSet(mainElements)
+    # Get the body tag
+    body_tag = soup.body
 
-# write data to file
-f = open(f"DOM.txt", "w")
-f.write("Title : " + title.text)
-for i in orderdElement:
-    # write the element name and, its type and placeholder if input field or text if not input filed
-    d = i.name + " : " + (i.get("type").strip() + " : " + (i.get("name") if "name" in i.attrs else "No Name") if i.name == "input" else i.get_text().strip().replace("\n", " "))
-    try:
-        f.write('\n'+d)
-    except:
-        print("unicode not available")
+    # Call the function on the body tag to get main elements
+    find_text_tags(body_tag)
 
+    # remove redundant elements
+    orderdElement = OrderedSet(mainElements)
+
+    # write data to file
+    f = open(f"DOM{indexing}.txt", "w")
+    f.write("Title : " + title.text)
+    for i in orderdElement:
+        # write the element name and, its type and placeholder if input field or text if not input filed
+        d = i.name + " : " + ((i.get("type").strip() if "type" in i.attrs else "No Type") + " : " + (i.get("name") if "name" in i.attrs else "No Name") if i.name == "input" else i.get_text().strip().replace("\n", " "))
+        try:
+            f.write('\n'+d)
+        except:
+            print(f"ordered element:", i)
+            print("unicode not available")
+    f.close()
 # this will convert the beautiful soup tag in orderedElement[index] to interactable selenium object
 # def getSeleniumElement(index):
 #     attributes = orderdElement[index].attrs
@@ -144,12 +152,9 @@ def performAction(index):
 
 
 
-d = performAction(82)
+# d = performAction(82)
 
 # de = getSeleniumElement(0)
-#
+
 # performElementAction(de)
 driver.quit()
-
-
-
