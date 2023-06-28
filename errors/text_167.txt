@@ -1,0 +1,58 @@
+I'd like to create a new account, how can I get started[SEP]Title :  :: Anaconda.org
+span : Menu
+a : Gallery
+a : About
+a : Anaconda
+a : Help
+a : Download Anaconda
+button : Sign In
+h3 : Where packages, notebooks, projects and environments are shared.
+h5 : SEARCH PACKAGES
+input : text : q
+h2 : Join Today
+a : Sign Up
+a : Sign In
+form : Username   Email Address   Enter Password   Re-enter Password    I accept the Terms & Conditions        Register For Free
+input : text : No Name
+input : password : No Name
+label : Username
+label : Email Address
+label : Enter Password
+label : Re-enter Password
+xxxxxxxxxxxxxxxxxxxxxxxxxx> label : I accept the Terms & Conditions
+a : Terms & Conditions
+--------------------------> button : Register For Free
+input : text : username
+input : password : password
+button : Submit
+a : I forgot my password
+a : I forgot my username
+p : Expedite your data science journey with easy access to training materials, how-to videos, and           expert insights on Anaconda Cloud, all free for a limited time to Cloud members.
+a : Get Started With Anaconda Cloud
+p : By data scientists, for data scientists
+span : data scientists
+h5 : ANACONDA
+a : About Us
+a : Anaconda Cloud
+h5 : ANACONDA.ORG
+a : Documentation
+a : Support
+h5 : COMMUNITY
+a : Open Source
+a : NumFOCUS
+a : conda-forge
+a : Blog
+span : © 2023 Anaconda, Inc. All Rights Reserved. (v2.37.6 8f699865)
+a : Legal
+span : Legal           |           Privacy Policy
+a : Privacy Policy
+body : Menu    Gallery About Anaconda Help Download Anaconda   Sign In                     Where packages, notebooks, projects and environments are shared.    SEARCH PACKAGES         Join Today  Sign Up Sign In           Username   Email Address   Enter Password   Re-enter Password    I accept the Terms & Conditions        Register For Free        Username   Enter Password   Submit   I forgot my password  I forgot my username                     Expedite your data science journey with easy access to training materials, how-to videos, and           expert insights on Anaconda Cloud, all free for a limited time to Cloud members.          Get Started With Anaconda Cloud          By data scientists, for data scientists                       ANACONDA  About Us Anaconda Cloud Download Anaconda    ANACONDA.ORG  About Gallery Documentation Support    COMMUNITY  Open Source NumFOCUS conda-forge Blog          © 2023 Anaconda, Inc. All Rights Reserved. (v2.37.6 8f699865)  Legal           |           Privacy Policy           Find us on FacebookFollow us on TwitterFind us on LinkedInFollow us on GitHubFollow us on InstagramWatch us on YouTube
+span : Find us on Facebook
+span : Follow us on Twitter
+span : Find us on LinkedIn
+span : Follow us on GitHub
+span : Follow us on Instagram
+span : Watch us on YouTube
+
+###
+

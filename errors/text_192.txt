@@ -1,0 +1,121 @@
+Locate resources on sending emails[SEP]Title : Audience dashboard | Mailchimp
+a : ___
+a : Skip to main content
+span : search
+span : Create
+span : Campaigns
+span : Automations
+span : Audience
+span : Audience dashboard
+span : All contacts
+span : Signup forms
+span : Tags
+span : Segments
+span : Surveys
+span : Inbox
+span : Analytics
+span : Website
+span : Content
+span : Integrations
+span : Upgrade
+span : Help
+h1 : Audience Dashboard
+h1 : Grow Your Mailchimp Audience
+p : Your audience is where you'll store and manage your contacts. Once you add your contacts, you'll be able to send your first campaign. We'll walk you through the process.
+span : Add Your Contacts
+h2 : Get started with your audience
+h3 : Mailchimp audience 101
+p : Here's what you need to know before you start importing contacts.
+h3 : Start with a webinar
+p : Learn how to import and organize various contacts in this free, introductory lesson.
+h3 : More ways to grow
+p : Browse our collection of resources, case studies and tips for growing your audience.
+h2 : No contacts? No problem.
+p : We'll show you how to grow your audience and add contacts quickly.
+h3 : Create a signup form
+p : Capture contacts and collect the data you need to grow your Mailchimp audience.
+xxxxxxxxxxxxxxxxxxxxxxxxxx> span : Create Form
+h3 : Create a social post
+p : Share posts across multiple channels to increase the reach of your brand.
+span : Create Post
+h3 : Create a social ad
+p : Tell people about yourself and attract customers who aren't on your list - yet.
+span : Create Ad
+span : Browser navigated to the '/audience' page
+label : Search
+--------------------------> input : text : No Name
+span : clear
+span : Campaigns
+span : Contacts
+span : Help articles
+a : Skip to content
+p : Email
+span : Automations
+p : Website
+span : Landing Page
+span : Creative Assistant
+p : Signup Form
+span : Surveys
+p : Ad
+span : Social Post
+p : Postcard
+h1 : Create something that gets noticed
+div : Based on best practices
+h2 : Try building one of these
+p : Regular email
+p : Use our email builder to launch a campaign in minutes.
+span : Design Email
+p : Automation
+p : Set up email automations that personalize your marketing and save you time.
+span : Create Journey
+p : Landing page
+p : Create a landing page that lets people sign up to receive product promotions or discounts.
+span : Build Landing Page
+p : Our website stores cookies on your device and discloses information in accordance with our Cookie Statement. Choose Customize Settings to control cookies.  We may collect certain aggregate and anonymized data from your browser independent of your cookie preferences.Cookie Statement
+a : Cookie Statement
+button : Customize settings
+div : Our website stores cookies on your device and discloses information in accordance with our Cookie Statement. Choose Customize Settings to control cookies.  We may collect certain aggregate and anonymized data from your browser independent of your cookie preferences.Cookie StatementCustomize settings
+h2 : How Mailchimp Uses Cookies
+div : Mailchimp Sites may request cookies to be set on your device. We use cookies to let us know when you visit our Mailchimp Sites, to understand how you interact with us, to enrich and personalize your user experience, to enable social media functionality and to customize your relationship with Mailchimp, including providing you with more relevant advertising. Click on the different category headings to find out more. You can also change your cookie preferences at any time. Note that blocking some types of cookies may impact your experience on our Mailchimp Sites and the services we are able to offer.             More information
+a : More information
+button : Allow All
+h3 : Manage Consent Preferences
+h4 : Essential Website Cookies
+div : Always Active
+p : These cookies are strictly necessary to provide you with the services and features  available through our site. Because these cookies are strictly necessary to deliver the site, you cannot refuse them without impacting how the site functions.
+h4 : Performance and Functionality Cookies
+input : checkbox : ot-group-id-2
+span : Performance and Functionality Cookies
+p : These cookies are used to enhance the functionality of the site. They help us to customize the site and application (where applicable) for you in order to enhance your experience. Although important to us, these cookies are non-essential to the use of the site. However, without these cookies, certain functionality may become unavailable.
+h4 : Advertising (Targeting) Cookies
+input : checkbox : ot-group-id-4
+span : Advertising (Targeting) Cookies
+p : These cookies are used to make advertising messages more relevant to you and your interests. They also perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed, and in some cases selecting advertisements that are based on your interests.
+h4 : Analytics and Customization Cookies
+input : checkbox : ot-group-id-3
+span : Analytics and Customization Cookies
+p : These cookies collect information to help us understand how the site is being used or how effective our marketing campaigns are. They help us to know which pages are the most and least popular and to see how visitors move around the site. These cookies may be set by us or by third-party providers whose services we have added to our pages.
+title : Back Button
+h3 : Vendors List
+input : text : vendor-search-handler
+title : Search Icon
+title : Filter Icon
+button : Clear
+input : checkbox : No Name
+span : checkbox label
+span : label
+button : Apply
+button : Cancel
+span : Consent
+span : Leg.Interest
+input : checkbox : No Name
+input : checkbox : No Name
+input : checkbox : No Name
+span : View Cookies
+div : Name
+div : cookie name
+button : Confirm My Choices
+div : Feedback
+
+###
+

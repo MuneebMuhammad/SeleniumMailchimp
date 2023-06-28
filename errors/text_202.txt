@@ -1,0 +1,170 @@
+Create email tempelate called welcome[SEP]Title : Templates
+a : Contacts
+div : Contacts
+div : Companies
+div : Calls
+div : Activity Feed
+div : Lists
+a : Conversations
+div : Inbox
+div : Chatflows
+div : Snippets
+div : Templates
+a : Marketing
+div : Ads
+div : Email
+div : Landing Pages
+a : Website
+a : Website Pages
+a : Blog
+div : Social
+div : This feature is included in Marketing Hub Professional
+div : SEO
+div : This feature is included in Marketing and CMS Hub Professional
+div : Campaigns
+div : Design Tools
+div : Forms
+a : Sales
+div : Deals
+div : Forecast
+div : This feature is included in Sales Hub Professional
+div : Tasks
+div : Documents
+div : Meetings
+div : Payments
+div : This feature is included in all paid plans.
+div : Playbooks
+div : This feature is included in Sales and Service Hub Professional
+div : Quotes
+a : Service
+div : Tickets
+div : Feedback Surveys
+div : This feature is included in Service Hub Professional
+div : Knowledge Base
+div : Customer Portal
+a : Automation
+div : Sequences
+div : Workflows
+div : This feature is included in Sales, Service, Marketing and Operations Hub Professional
+a : Reports
+div : Analytics Tools
+div : Dashboards
+div : Reports
+a : Data Management
+a : Integrations
+a : Data Model
+a : Data Quality
+a : Datasets
+span : Menu
+div : Menu
+a : Menu
+a : Contacts
+a : Conversations
+a : Marketing
+a : Sales
+a : Service
+a : Automation
+a : Reports
+input : text : No Name
+title : Search
+title : Free Trials
+title : Marketplaces
+title : Help
+title : Settings
+title : calling icon
+title : Notifications
+span : Seecs
+button : Seecs
+div : Dua Umer
+div : domer.bscs20seecs@seecs.edu.pk
+div : Profile & Preferences
+div : Seecs
+div : 40047472
+a : All accounts
+div : Set up your HubSpot account
+span : Progress...
+span : 0%
+a : Account & Billing
+a : HubSpot Academy
+a : Pricing & Features
+a : Product Updates
+a : Training & Services
+a : Sign out
+a : Privacy policy
+i18n-string : User Guide
+span : Get Started
+span : Marketing Hub Free
+span : Sales Hub Free
+span : Service Hub Free
+span : Operations Hub Free
+span : CMS Hub Free
+i18n-string : View your plan
+i18n-string : Discover what your tools can do
+i18n-string : Recommended: Get started by adding some contacts
+i18n-string : It's easy to do and we'll walk you through the process. Your data is safe and secure and will never be shared.
+i18n-string : Add contacts
+i18n-string : Invite a teammate to add contacts
+i18n-string : Invite a teammate to try HubSpot with you
+i18n-string : Unite your team on one powerful, connected, and easy-to-use platform.
+i18n-string : Recommended for you
+i18n-string : Get started with a 4 minute lesson on attracting the right audience
+i18n-string : It's the quickest way to learn how to run inbound marketing campaigns at scale, using your new CRM.
+i18n-string : Discover more tips and tricks (6)
+i18n-string : Helpful information
+i18n-string : Is my information safe in HubSpot? Will you read my emails or use my contacts?
+i18n-string : How can I send email in HubSpot?
+i18n-string : How do I migrate data from my current CRM or spreadsheets to HubSpot?
+i18n-string : Show more FAQs (5)
+span : Finished setting up? Turn off the user guide, and we wont show you this page again.
+a : Turn off the user guide
+i18n-string : Steps to get started with HubSpot
+i18n-string : 1 of 8 complete (About 42 minutes total left)
+span : Progress: 13%
+span : 13%
+span : 13% complete
+span : Create your first contact
+i18n-string : About 2 minutes
+div : See all their details and interactions you've had in one place. Learn more
+i18n-string : Learn more
+span : Create contact
+i18n-string : Skip for now
+i18n-string : Show more tasks
+i18n-string : Snippets
+i18n-string : 1 of 5 created
+i18n-string : New folder
+i18n-string : Create snippet
+i18n-string : Your team has created 1 out of 5 snippets.
+i18n-string : Unlock more snippets with
+i18n-string : Sales Hub Starter.
+span : Upgrade
+input : search : No Name
+i18n-string : Owner:
+span : Any
+input : checkbox : No Name
+i18n-string : Name
+i18n-string : Created by
+i18n-string : Date created
+i18n-string : Date modified
+input : checkbox : No Name
+a : test
+i18n-string : Actions
+span : Dua Umer
+span : 11 minutes ago
+i18n-string : Templates
+i18n-string : 2 of 5 created
+--------------------------> i18n-string : New template
+i18n-string : Your team has created 2 out of 5 templates.
+i18n-string : Unlock more templates with
+input : search : No Name
+input : checkbox : No Name
+i18n-string : Name
+i18n-string : Owner
+i18n-string : Date created
+i18n-string : Date modified
+input : checkbox : No Name
+xxxxxxxxxxxxxxxxxxxxxxxxxx> a : Inbound Lead from Content
+span : 5 minutes ago
+a : Breakup email - Sample Template
+
+###
+

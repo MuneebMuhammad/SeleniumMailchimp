@@ -30,6 +30,8 @@ from selenium.webdriver.common.by import By
 # chrome_options.add_argument(f'user-agent={os.getenv("userAgent")}')
 # # chrome_options.add_argument("--disable-web-security")
 
+
+
 f = open("Release a new album - ConvertKit.html", "r")
 source = f.read()
 # print(source)

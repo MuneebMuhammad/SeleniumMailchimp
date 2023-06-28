@@ -1,0 +1,77 @@
+add a contact[SEP]Title : Brevo
+input : checkbox : No Name
+span : Formerly
+span : Home
+span : Contacts
+span : Lists
+span : Segments
+span : Forms
+span : Settings
+span : Campaigns
+span : Automations
+span : Transactional
+span : Add more apps
+span : Usage and plan
+span : Abx
+h1 : Contacts
+span : Import contacts
+--------------------------> span : Create a contact
+h2 : Create a contact
+span : EMAIL
+xxxxxxxxxxxxxxxxxxxxxxxxxx> input : No Type : email
+span : LASTNAME
+input : No Type : LASTNAME
+span : FIRSTNAME
+input : No Type : FIRSTNAME
+span : SMS
+input : No Type : SMS
+span : LISTS
+input : No Type : No Name
+button : All folder
+span : All folder
+span : Your First Folder
+input : checkbox : No Name
+span : Your first list
+label : Your first list|Client_Folder
+span : Client_Folder
+button : Add a new list
+span : Not Now
+span : Create
+span : This is your contact database. From here, you can view, organize and manage your contacts, individually or as a group.
+span : All contacts
+span : Load a list or a segment
+span : Add a filter
+span : 1
+h2 : 1 contact
+span : 0 anonymous contact
+span : Edit column attributes
+input : search : No Name
+input : checkbox : checkbox_name
+span : Add to a list(s)
+span : Blocklist
+span : Edit
+span : More actions
+strong : 0
+div : 0 contacts selected
+div : CONTACT
+div : SUBSCRIBED
+div : BLOCKLISTED
+div : EMAIL
+div : LASTNAME
+div : FIRSTNAME
+div : SMS
+div : LAST CHANGED
+div : DATE ADDED
+input : checkbox : No Name
+a : qmuhammad56@gmail.com
+span : Email
+div : qmuhammad56@gmail.com
+div : 22-06-2023
+span : Rows per page
+span : 20
+strong : 1-1
+div : 1-1 of 1
+button : 1
+
+###
+

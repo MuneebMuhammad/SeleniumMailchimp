@@ -1,0 +1,59 @@
+Navigate to automation settings[SEP]Title : Brevo
+input : checkbox : No Name
+span : Formerly
+span : Home
+xxxxxxxxxxxxxxxxxxxxxxxxxx> span : Contacts
+span : Campaigns
+--------------------------> span : Automations
+span : Transactional
+span : Conversations
+span : Sales
+span : Meetings
+span : Usage and plan
+span : NUST
+h1 : Welcome back Muhammad
+h2 : Sendinblue becomes Brevo
+div : Over the years, Sendinblue has become more than just an email campaign tool. We’ve added several new marketing channels and new ways to run businesses, like meeting scheduling and a Sales CRM.This evolution was something we wanted to reflect. So we made some changes. We got new colors, a new look, and a new name to reintroduce ourselves.We are now Brevo. And we’re here to help you connect with your contacts and clients. Take a moment and take our guided tour to explore how you can do that with Brevo.
+span : Why we became Brevo
+span : Take the tour
+h3 : Get started with Marketing
+span : 1/3
+span : Complete your profile form
+span : Add your details, and we will customize Brevo for you, so you don’t have to. For example, email footers include your company name, and meeting invites need your name.
+span : Add your first contacts
+span : Schedule your first campaign
+span : Need inspiration? Browse our gallery and pick a template.
+h3 : Get started with Transactional Emails
+span : 0/2
+span : Verify your domain
+span : With a verified domain, you can create several senders on the same domain. No need to manually validate each of them. It’s faster and safer.
+h3 : Get started with Conversations + Chat
+span : 0/4
+span : Install a chat widget on your website
+span : Chat in real time with people visiting your website and convert them into new customers.
+span : Connect your Facebook, Instagram and WhatsApp account
+span : Stay in Brevo and chat directly with people on WhatsApp, Facebook Messenger or on Instagram with Direct Messages. That’s right, you can do it all from here.
+span : Create targeted messages and chatbot scenarios
+span : Context is everything. Message visitors to help them out based on what they do on your website and drive up sales.
+h2 : Contacts
+span : Go to Contacts
+span : Add contacts
+h2 : 2
+p : Total contacts
+p : New contacts over the last 30 days
+h2 : Recent campaigns
+h2 : Launch your first campaign
+p : You can boost your business by messaging a wide audience.
+span : Create a campaign
+h2 : More ways to grow your business
+div : Brevo Sales Platform
+h2 : Bring out the full potential of your sales team
+div : Equip your people to be their best – with better tools and insights to manage leads and customers, automate time-wasting tasks, and win more opportunities.
+span : Get started free
+div : Brevo Transactional emails
+h2 : Follow your transactional email metrics on your homepage
+div : How many emails did you sent today? What the delivery rate? How many hard bounces?  Add a dashboard to your homepage to drive your transactional email activity.
+span : Show transactional emails on the homepage
+
+###
+

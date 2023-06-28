@@ -1,0 +1,240 @@
+Craft a custom signup form[SEP]Title : Forms | Klaviyo
+span : Search
+input : text : No Name
+span : Notification Bell
+a : Account Plans
+a : Support
+span : Home
+span : Campaigns
+span : Flows
+span : Sign-up forms
+span : Audience
+div : Lists & segments
+div : Profiles
+span : Content
+div : Templates
+div : Products
+div : Images & brand
+span : Analytics
+div : Dashboards
+div : Metrics
+div : Benchmarks
+div : Custom reports
+span : Conversations
+span : T
+span : TUKL
+span : ali.raza987.ar@gmail.com
+h1 : Campaigns
+span : Options
+div : Export analytics
+div : View email trends
+div : View Smart Send Time report
+div : View archived campaigns
+span : Create campaign
+div : List view
+div : Calendar
+span : Search campaigns
+input : text : No Name
+span : Select metric
+div : Active on Site
+span : Filter
+input : text : No Name
+div : Active on Site
+span : Timeframe
+div : Last 30 days
+div : Last 7 days
+div : Last 30 days
+div : Last 90 days
+div : This year
+div : Last year
+div : All time
+div : Custom
+span : Filters
+span : Filters
+span : Close
+input : checkbox : No Name
+span : Check All Rows
+div : Campaign
+div : Type
+div : Status
+div : Last updated
+div : Open rate
+div : Click rate
+div : Active on Site
+span : Actions
+input : checkbox : No Name
+span : Select Row
+a : Email Campaign - Jun 21 2023 11:39 AM
+a : New Subscribers
+span : Email
+span : Canceled
+p : Jun 21 2023  at  2:49 AM GMT-4
+div : Jun 21 2023  at  2:49 AM GMT-4
+div : -
+span : Actions
+div : Clone
+div : View campaign
+div : Move to archive
+div : Delete
+p : This list shows campaigns from the last 30 days. Scheduled and draft campaigns are always displayed, regardless of date.
+input : text : No Name
+a : Flows
+div : View archived flows
+span : Create flow
+span : Maximize Revenue with Flows
+span : Drive up revenue and engagement with key automations that are pre-built and ready to turn on!
+a : View All Ideas
+span : Welcome Series
+span : Welcome subscribers with this 3-email series that provides a warm introduction to your business.
+span : This flow creates a combined $30M/month for Klaviyo users.
+button : Get Started
+span : Looking for more ideas?
+span : Check out the Flow Library for more pre-built flows.
+a : Browse Ideas
+span : You have no flows
+span : Get started with a pre-built flow or create your own from scratch.
+input : text : No Name
+span : Sign-up forms
+span : Each sign-up is worth $47 on average
+span : Grow your audience by adding a popup or flyout form to your site.
+span : Klaviyo users collect over 20 million subscribers per month using forms.
+span : Browse Templates
+--------------------------> span : Build From Scratch
+span : Filter Type
+div : All Types
+xxxxxxxxxxxxxxxxxxxxxxxxxx> div : All Types
+div : Popup
+div : Flyout
+div : Embed
+div : Full Page
+div : Fullscreen
+input : checkbox : No Name
+span : Collect Emails
+input : checkbox : No Name
+span : Collect Phone Numbers
+input : checkbox : No Name
+span : Email & Numbers
+input : checkbox : No Name
+span : Announcements
+input : checkbox : No Name
+span : Know Your Customer
+input : checkbox : No Name
+span : Coupons & Offers
+span : Multi-step email & SMS
+span : Grow your email and SMS lists without hurting conversion
+div : Popup
+span : Futuristic tap-to-text
+span : Collect SMS subscribers with a full page tap-to-text form
+div : Full Page
+span : Mobile-only tap-to-text discount
+span : Collect email and SMS list with a mobile tap-to-text form
+div : Flyout
+span : Multi-step email & name
+span : Know your customers without hurting email conversion
+span : First order discount
+span : Grow your email list with a discount offer
+span : Contemporary natural
+span : Collect email subscribers on all devices with a full page form
+span : Subscribe for coupon
+span : Grow your email list by offering a coupon code
+span : Galaxy multistep
+span : A dark theme with a preference step and coupon offer
+span : Looking for something?
+span : Get ahead of supply chain delays and grow your email list
+span : Marbled multistep
+span : A template with a light theme for phone and name capture
+span : Neutral modern
+span : Welcome users with a beautiful form for email and phone
+span : Join contest
+span : Grow your email list with an incentive
+span : Free shipping
+span : Grow your email list by offering free shipping
+span : In the club
+span : A light, modern template with rounded corners and fun imagery
+span : New product drop
+span : Direct customers to a product page
+span : Discount before exit
+span : Re-engage customers with a discount before exiting
+span : Offer insider deals
+span : Offer incentives to grow your email list
+span : Let's be friends
+span : Grow your email list and get to know your customers
+span : Multi-step email & birthday
+span : Grow your email list and learn more about your customers
+span : Simple flyout phone
+span : A simple flyout template for unobtrusive phone number capture
+span : Subscribe for updates
+span : Offer today-only deals
+span : Collect more leads with a time limited deal
+span : Free gift giveaway
+span : Grow your email list by offering a gift
+span : Multi-step email & info
+span : Weekly SMS deals
+span : Grow your SMS list by offering incentives via text
+span : Mobile-only tap-to-text exclusive deals
+span : Grow your email and SMS list with a mobile tap-to-text form
+span : Stay in touch fun
+span : A conversational mobile template with email and phone capture
+span : Time to celebrate
+span : Grow your email list by offering deals
+span : Join the rewards club
+span : Get more leads by rewarding your customers
+span : Tap-to-text SMS discount
+span : Quickly collect SMS on this mobile-only form
+span : Birthday gift
+span : Join insider list
+span : Grow your email list and get to know your customer
+span : Tap-to-text SMS daily deals
+span : Collect SMS on this mobile-only form with tap-to-text
+span : In stock reminder
+span : Grow your list by offering products alerts
+span : Announce new releases
+span : Direct customers to new releases
+span : New releases on sale
+span : Promote new products to potential customers
+span : Multi-step offer
+span : Grow your email and SMS list without hurting conversion
+span : Multi-step flyout
+span : Giveaway on exit
+span : Re-engage customers with a giveaway before exiting
+span : Holiday sales event
+span : Direct customers to different pages with special offers
+span : Coupon code at checkout
+span : Offer coupon code at checkout
+div : Embed
+span : Free shipping offer
+span : Grow your email list with a free shipping offer
+span : Diet preference
+span : Get to know your customer for personalized marketing
+span : Offer text deals
+span : Collect phone numbers while offering the latest deals
+span : Discount at checkout
+span : Offer discount code at checkout
+span : Announce deals
+span : Direct customers to expiring deals
+span : Tap-to-text for SMS promo
+span : Tap-to-text SMS subscribe & save
+span : Collect SMS on this mobile only form with tap-to-text
+span : Daily SMS deals
+span : Grow your SMS list by offering special offers
+span : Tell us about your pets
+span : Learn more about your customers
+span : Simple email signup
+span : Grow your email list with this non-intrusive form
+span : Unlock 15%
+span : Capture more leads with a surprise offer
+span : Be the first to know
+span : Join the club
+span : Stay in touch
+span : Collect more phone numbers with this non-intrusive form
+span : Don't miss out
+span : Shop deals - Announcement
+span : Direct your customers to special offers
+span : Stay updated
+span : Poppy tap-to-text
+span : A brightly colored tap-to-text form for easy SMS signup
+span : Tap-to-text for SMS-only deals
+span : Grow your SMS by offering SMS-only deals
+
+###
+

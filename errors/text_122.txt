@@ -1,0 +1,68 @@
+Help me edit Dark Theme email Template[SEP]Title : Dashboard - ConvertKit
+span : ConvertKit
+button : Grow
+button : Send
+button : Automate
+button : Earn
+button : Learn
+button : Menu
+div : Trial: 14 days remaining
+a : Upgrade now
+span : Muneeb Muhammad
+h1 : Welcome to ConvertKit, Muneeb Muhammad
+button : Create a new...
+h3 : Watch your welcome video
+h4 : You’ve logged in to a different account!
+p : It looks like you are in two accounts at once. To prevent losing any work, please select the account you wish to proceed with:
+a : muneebkhattak57@gmail.com
+a : Use account from other tab
+div : Subscribers
+p : Browse all your subscribers and customers.
+div : Creator Profile
+p : Your hub on the internet. A one-stop-shop for your subscribers to find all your content & products.
+div : Landing Pages & Forms
+p : Gather subscribers with a hosted landing page or a form embedded on your website.
+div : Creator Network
+p : Find creators to partner with to grow your audience faster.
+div : Broadcasts
+p : Send an email to some, or all, of your audience, and to your public feed.
+--------------------------> div : Email Templates
+p : Create email templates to use as a starting point in your emails.
+div : Sequences
+p : Create multiple emails that are sent in order.
+div : Snippets
+p : Supercharge your emails with reusable blocks of content.
+div : Visual Automations
+p : Create powerful, automated funnels for your audience.
+div : Integrations
+p : Connect your content with ConvertKit by integrating with your other accounts.
+div : Rules
+p : "If this, then that" automation rules.
+div : RSS
+p : Automagically generate emails or digests when RSS feeds update.
+div : Products
+p : Sell digital products and content subscriptions directly to your audience.
+div : Tip Jars
+p : Give your audience a way to send you a tip for your content.
+div : Payouts
+p : See a breakdown of all payouts you’ve received.
+div : Documentation
+p : Read the documentation for helpful articles & tutorials.
+div : Community
+p : Got a burning question? Ask the community for advice!
+div : Creator University
+p : In-depth courses to help you earn a living as a creator with ConvertKit.
+h2 : You're on a Creator Plan free trial!
+div : Upgrade to continue to use all the features you have access to without interruption.
+button : Upgrade now
+span : Settings
+span : Help
+span : Log out
+button : Broadcast
+a : Form
+xxxxxxxxxxxxxxxxxxxxxxxxxx> a : Landing page
+a : Snippet
+a : Email template
+
+###
+

@@ -1,0 +1,80 @@
+How do I set up Databricks on Azure[SEP]Title : Try Databricks on Azure – Databricks
+h1 : Try Databricks on Azure
+p : Discover how easy it is to simplify your data architecture by unifying all of your analytics and AI workloads on a simple open lakehouse platform.
+p : Azure Databricks is optimized for Azure and tightly integrated with Azure Data Lake Storage, Azure Data Factory, Power BI and many more Azure services.
+p : Join thousands of customers who already use this game-changing platform for their data teams.
+legend : Create your account
+label : First name
+label : Last name
+label : Email
+label : Company
+label : Title
+label : Phone (Optional)
+div : Pakistan
+xxxxxxxxxxxxxxxxxxxxxxxxxx> label : Country
+input : checkbox : No Name
+label : By submitting, I agree to the processing of my personal data by Databricks in accordance with our Privacy Policy. I understand I can update my preferences at any time.
+a : Privacy Policy
+a : update my preferences
+--------------------------> button : Continue
+a : Privacy Notice (Updated)
+a : Terms of Use
+a : Your Privacy Choices
+a : Your California Privacy Rights
+div : Navigated to Try Databricks on Azure
+h2 : We Care About Your Privacy
+p : Databricks uses cookies and similar technologies to enhance site navigation, analyze site usage, personalize content and ads, and as further described in our Cookie Notice. Click “Accept All” to enable all cookies or “Reject All” to reject cookies. You can also manage your cookie settings by clicking “Manage Preferences.”
+a : Cookie Notice
+button : Reject All
+button : Accept All
+button : Manage Preferences
+div : We Care About Your PrivacyDatabricks uses cookies and similar technologies to enhance site navigation, analyze site usage, personalize content and ads, and as further described in our Cookie Notice. Click “Accept All” to enable all cookies or “Reject All” to reject cookies. You can also manage your cookie settings by clicking “Manage Preferences.” Reject All Accept AllManage Preferences
+div : Privacy Preference CenterYour PrivacyStrictly Necessary CookiesPerformance CookiesFunctional CookiesTargeting CookiesYour PrivacyWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.   For California residents Under California law, certain cookies placed by our advertising partners for personalized advertising may be characterized as “sale” or “sharing” of personal information.  You may opt out of such “sales” or “sharing” by using the toggle in the “Targeting Cookies” section below.              More informationStrictly Necessary CookiesAlways ActiveThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.Performance Cookies  Performance Cookies These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site.Functional Cookies  Functional Cookies These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.Targeting Cookies  Targeting Cookies These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. If you do not allow these cookies, you will experience less targeted advertising.Back ButtonBack  Filter ButtonConsent Leg.Interest  Switch Label label  Switch Label label  Switch Label labelClear checkbox label labelApply CancelConfirm My Choices Allow All
+div : Privacy Preference Center
+h2 : Privacy Preference Center
+li : Your Privacy
+h3 : Your Privacy
+h3 : Strictly Necessary Cookies
+h3 : Performance Cookies
+h3 : Functional Cookies
+h3 : Targeting Cookies
+h4 : Your Privacy
+p : When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.   For California residents Under California law, certain cookies placed by our advertising partners for personalized advertising may be characterized as “sale” or “sharing” of personal information.  You may opt out of such “sales” or “sharing” by using the toggle in the “Targeting Cookies” section below.              More information
+b : For California residents
+a : More information
+h4 : Strictly Necessary Cookies
+div : Always Active
+p : These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.
+h4 : Performance Cookies
+input : checkbox : ot-group-id-C0002
+span : Performance Cookies
+p : These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site.
+h4 : Functional Cookies
+input : checkbox : ot-group-id-C0003
+span : Functional Cookies
+p : These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+h4 : Targeting Cookies
+input : checkbox : ot-group-id-C0004
+span : Targeting Cookies
+p : These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites. If you do not allow these cookies, you will experience less targeted advertising.
+title : Back Button
+h3 : Back
+input : text : vendor-search-handler
+title : Filter Button
+span : Consent
+span : Leg.Interest
+input : checkbox : switch
+span : Switch Label
+span : label
+input : checkbox : switch
+input : checkbox : switch
+button : Clear
+input : checkbox : No Name
+span : checkbox label
+button : Apply
+button : Cancel
+button : Confirm My Choices
+button : Allow All
+
+###
+

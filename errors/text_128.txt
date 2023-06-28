@@ -1,0 +1,96 @@
+Edit my Release a new album automation[SEP]Title : Automations - ConvertKit
+span : ConvertKit
+button : Grow
+button : Send
+button : Automate
+button : Earn
+button : Learn
+button : Menu
+div : Trial: 12 days remaining
+a : Upgrade now
+span : Muneeb Muhammad
+h2 : Visual Automations
+xxxxxxxxxxxxxxxxxxxxxxxxxx> a : My automations2
+small : 2
+a : Templates
+span : Sort by
+span : Alphabetical
+span : New automation
+a : newsletter
+span : Open action menu
+p : Paused
+div : 0 Total Subscribers
+p : This automation is emptyClick to start building your automation
+--------------------------> a : Release a new album
+span : Album Release Landing Page
+span : Album Release Warmup
+span : Date: June 4, 2021 12:00 am (EDT)
+span : Album Release
+span : Has Listened to the album Tag
+span : Listened to the album
+span : Yes
+span : No
+span : Content for listeners
+span : Content for non-listeners
+workflow-end : End of Automation
+div : © 2013 - 2023 ConvertKit. All Rights Reserved.
+h4 : You’ve logged in to a different account!
+p : It looks like you are in two accounts at once. To prevent losing any work, please select the account you wish to proceed with:
+a : muneebkhattak57@gmail.com
+a : Use account from other tab
+div : Subscribers
+p : Browse all your subscribers and customers.
+div : Creator Profile
+p : Your hub on the internet. A one-stop-shop for your subscribers to find all your content & products.
+div : Landing Pages & Forms
+p : Gather subscribers with a hosted landing page or a form embedded on your website.
+div : Creator Network
+p : Find creators to partner with to grow your audience faster.
+div : Broadcasts
+p : Send an email to some, or all, of your audience, and to your public feed.
+div : Email Templates
+p : Create email templates to use as a starting point in your emails.
+div : Sequences
+p : Create multiple emails that are sent in order.
+div : Snippets
+p : Supercharge your emails with reusable blocks of content.
+div : Visual Automations
+p : Create powerful, automated funnels for your audience.
+div : Integrations
+p : Connect your content with ConvertKit by integrating with your other accounts.
+div : Rules
+p : "If this, then that" automation rules.
+div : RSS
+p : Automagically generate emails or digests when RSS feeds update.
+div : Products
+p : Sell digital products and content subscriptions directly to your audience.
+div : Tip Jars
+p : Give your audience a way to send you a tip for your content.
+div : Payouts
+p : See a breakdown of all payouts you’ve received.
+div : Documentation
+p : Read the documentation for helpful articles & tutorials.
+div : Community
+p : Got a burning question? Ask the community for advice!
+div : Creator University
+p : In-depth courses to help you earn a living as a creator with ConvertKit.
+h2 : You're on a Creator Plan free trial!
+div : Upgrade to continue to use all the features you have access to without interruption.
+button : Upgrade now
+span : Settings
+span : Help
+span : Log out
+a : Edit
+div : Delete
+div : Duplicate
+a : Edit
+div : Delete
+div : Duplicate
+li : Alphabetical
+li : Newest
+li : Oldest
+span : ⌘
+span : K
+
+###
+
