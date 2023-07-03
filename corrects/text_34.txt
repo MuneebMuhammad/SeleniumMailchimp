@@ -1,0 +1,65 @@
+Design a template for emails[SEP]Title : Templates
+body : FormerlyHomeContactsCampaignsEmailSMSWhatsAppWeb pushFacebook AdsTemplatesStatisticsSettingsAutomationsTransactionalConversationsSalesMeetings               Please fill out your profile form to complete your sign-up. Go back to the profile form   Usage and planNUST    It is recommended to use latest version of Chrome/Firefox Browser for the best viewing experience. Click here to download Chrome Browser.    Email templatesNew TemplateCreate your first templateCreate and edit your email templates (order confirmations, registration confirmations, automation emails etc.).Create my first templateShare on Social MediaSelect an image, title, and description that will show up when you share your campaign to your social media accounts.New upload(jpg, png, gif)Title60 charactersDescription150 charactersCreate preview without imageShare on Social MediaShare viaFacebookFacebookTwitterTwitterLinkedinLinkedinCopy the URL                            ×Close Upgrade your plan    This feature is available from the Premium plan. Upgrade my plan   Easily upgrade, downgrade or cancel your subscription at any time.         ×Close Upgrade your plan    This feature is available from the Business plan. Upgrade my plan   Easily upgrade, downgrade or cancel your subscription at any time.
+input : checkbox : No Name
+span : Formerly
+span : Home
+span : Contacts
+span : Campaigns
+span : Email
+span : SMS
+span : WhatsApp
+span : Web push
+span : Facebook Ads
+span : Templates
+span : Statistics
+span : Settings
+span : Automations
+span : Transactional
+span : Conversations
+span : Sales
+span : Meetings
+div : FormerlyHomeContactsCampaignsEmailSMSWhatsAppWeb pushFacebook AdsTemplatesStatisticsSettingsAutomationsTransactionalConversationsSalesMeetings               Please fill out your profile form to complete your sign-up. Go back to the profile form   Usage and planNUST    It is recommended to use latest version of Chrome/Firefox Browser for the best viewing experience. Click here to download Chrome Browser.    Email templatesNew TemplateCreate your first templateCreate and edit your email templates (order confirmations, registration confirmations, automation emails etc.).Create my first templateShare on Social MediaSelect an image, title, and description that will show up when you share your campaign to your social media accounts.New upload(jpg, png, gif)Title60 charactersDescription150 charactersCreate preview without imageShare on Social MediaShare viaFacebookFacebookTwitterTwitterLinkedinLinkedinCopy the URL
+span : Please fill out your profile form to complete your sign-up.
+a : Go back to the profile form
+span : Usage and plan
+span : NUST
+div : It is recommended to use latest version of Chrome/Firefox Browser for the best viewing experience. Click here to download Chrome Browser.
+a : here
+main : It is recommended to use latest version of Chrome/Firefox Browser for the best viewing experience. Click here to download Chrome Browser.    Email templatesNew TemplateCreate your first templateCreate and edit your email templates (order confirmations, registration confirmations, automation emails etc.).Create my first templateShare on Social MediaSelect an image, title, and description that will show up when you share your campaign to your social media accounts.New upload(jpg, png, gif)Title60 charactersDescription150 charactersCreate preview without imageShare on Social MediaShare viaFacebookFacebookTwitterTwitterLinkedinLinkedinCopy the URL
+h1 : Email templates
+button : New Template
+span : Create your first template
+span : Create and edit your email templates (order confirmations, registration confirmations, automation emails etc.).
+--------------------------> span : Create my first template
+h1 : Share on Social Media
+span : Select an image, title, and description that will show up when you share your campaign to your social media accounts.
+span : New upload
+span : (jpg, png, gif)
+input : file : files
+input : checkbox : No Name
+span : Title
+span : 60
+span : 60 characters
+input : No Type : No Name
+span : Description
+span : 150
+span : 150 characters
+input : No Type : No Name
+span : Create preview without image
+span : Share on Social Media
+span : Share via
+span : Facebook
+span : Twitter
+span : Linkedin
+input : text : No Name
+span : Copy the URL
+span : ×
+span : Close
+h4 : Upgrade your plan
+h4 : This feature is available from the Premium plan.
+a : Upgrade my plan
+p : Easily upgrade, downgrade or cancel your subscription at any time.
+h4 : This feature is available from the Business plan.
+
+###
+

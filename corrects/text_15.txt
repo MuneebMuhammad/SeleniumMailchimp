@@ -1,0 +1,73 @@
+I want to log in to my account[SEP]Title : Log In - Stack Overflow
+div : Home
+li : Public
+span : Questions
+div : Tags
+div : Users
+div : Companies
+div : Collectives
+span : Explore Collectives
+div : Teams
+strong : Stack Overflow for Teams
+div : Stack Overflow for Teams         – Start collaborating and sharing organizational knowledge.                   Create a free Team Why Teams?
+a : Create a free Team
+a : Why Teams?
+div : Teams
+div : Create free Team
+h5 : Collectives™ on Stack Overflow
+p : Find centralized, trusted content and collaborate around the technologies you use most.
+a : Learn more about Collectives
+strong : Teams
+p : Q&A for work
+p : Connect and share knowledge within a single location that is structured and easy to search.
+a : Learn more about Teams
+span : Stack Overflow
+a : About
+a : Products
+a : For Teams
+span : Stack Overflow
+span : Public questions & answers
+span : Stack Overflow for Teams
+span : Where developers & technologists share private knowledge with coworkers
+span : Talent
+span : Build your employer brand
+span : Advertising
+span : Reach developers & technologists worldwide
+a : About the company
+input : text : q
+div : Loading…
+a : current community
+span : Stack Overflow
+a : help
+a : chat
+span : Meta Stack Overflow
+h3 : your communities
+a : Sign up
+div : Sign up or log in to customize your list.
+a : log in
+a : more stack exchange communities
+a : company blog
+a : Log in
+a : Sign up
+button : Log in with Google
+button : Log in with GitHub
+button : Log in with Facebook
+label : Email
+--------------------------> input : password : password
+label : Password
+a : Forgot password?
+button : Log in
+div : Don’t have an account? Sign up                          Are you an employer? Sign up on Talent
+a : Sign up
+div : Are you an employer? Sign up on Talent
+a : Sign up on Talent
+body : Home                       Public    Questions                           Tags                                             Users                                             Companies                       Collectives           Explore Collectives      Teams  Stack Overflow for Teams         – Start collaborating and sharing organizational knowledge.                   Create a free Team Why Teams?    Teams                                     Create free Team                            Collectives™ on Stack Overflow Find centralized, trusted content and collaborate around the technologies you use most.                      Learn more about Collectives                       Teams Q&A for work Connect and share knowledge within a single location that is structured and easy to search.                      Learn more about Teams                          Stack Overflow    About    						Products 					   For Teams        Stack Overflow Public questions & answers     Stack Overflow for Teams Where developers & technologists share private knowledge with coworkers     Talent  								Build your employer brand 							     Advertising Reach developers & technologists worldwide    About the company            Loading…               current community                             Stack Overflow             help chat                      Meta Stack Overflow                your communities                Sign up or log in to customize your list.                   more stack exchange communities  company blog         Log in  Sign up                  Log in with Google           Log in with GitHub           Log in with Facebook               Email                Password Forgot password?    Log in                          Don’t have an account? Sign up                          Are you an employer? Sign up on Talent                                          Your privacy                                               By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.                                                    Accept all cookies                                                       Necessary cookies only                                                         Customize settings
+p : Your privacy
+p : By clicking “Accept all cookies”, you agree Stack Exchange can store cookies on your device and disclose information in accordance with our Cookie Policy.
+a : Cookie Policy
+button : Accept all cookies
+button : Necessary cookies only
+button : Customize settings
+
+###
+

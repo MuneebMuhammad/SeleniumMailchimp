@@ -1,0 +1,33 @@
+Visit my sales dashboard[SEP]Title : Brevo
+input : checkbox : No Name
+span : Formerly
+span : Home
+span : Contacts
+span : Campaigns
+span : Automations
+span : Transactional
+span : Conversations
+span : Sales
+--------------------------> span : Dashboard
+span : Tasks
+span : Companies
+span : Settings
+span : Meetings
+span : Usage and plan
+span : NUST
+h2 : Get started with Sales
+h2 : Turn your contacts into customers
+div : Track all your business opportunities in one place. Automate your outreach strategies and sales sequences. 100% free.
+span : Create your first deal
+h2 : Create custom pipelines
+div : Deal management
+span : Define your own pipeline stages and get a 360 view of your deals at any time.
+h2 : Save hours with automation
+div : Sales automation
+span : Minimize repetitive tasks with easy-to-set automations, and get more time to close deals.
+h2 : Never miss a follow-up
+div : Task management
+span : Use tasks to keep track of your sales activities with our reminder system.
+
+###
+

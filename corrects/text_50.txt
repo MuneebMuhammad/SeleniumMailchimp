@@ -1,0 +1,93 @@
+Formulate an email template[SEP]Title : Template Builder- Step 1
+input : checkbox : No Name
+span : Formerly
+span : Home
+span : Contacts
+span : Campaigns
+span : Email
+span : SMS
+span : WhatsApp
+span : Web push
+span : Facebook Ads
+span : Templates
+span : Statistics
+span : Settings
+span : Automations
+span : Transactional
+span : Conversations
+span : Sales
+span : Meetings
+span : Please fill out your profile form to complete your sign-up.
+a : Go back to the profile form
+span : Usage and plan
+span : NUST
+div : It is recommended to use latest version of Chrome/Firefox Browser for the best viewing experience. Click here to download Chrome Browser.
+a : here
+span : Setup your template
+span : Save & Quit
+span : Next Step
+span : Setup
+span : Design
+span : Design to be created!
+span : Template Name
+--------------------------> input : text : camp_name
+span : Give your template an internal name to help organize and locate it easily within your account. For example: 'Purchase Confirmation'.
+span : Subject Line
+button : Add personalization
+input : No Type : subject
+span : Write a subject line that clearly describes your email content. It will be visible in your recipient's inbox and is the first content they will see. For example: 'Private sale: 25% off our new collection'.
+span : Insert personalization
+span : Which attribute would you like to insert?
+span : Choose Attribute
+input : search : No Name
+title : Search
+span : Attributes
+a : EMAIL
+a : LASTNAME
+a : FIRSTNAME
+a : SMS
+span : Which value should be used if the attribute is empty?
+input : text : No Name
+span : Insert
+span : Cancel
+span : Preview text
+button : Add personalization
+input : No Type : preheader
+span : Write a short text (about 35 characters) that gives an overview of the content of your email. This will significantly increase your opening rate. This feature is supported by most email clients, like Gmail and Yahoo. The text will be displayed in your recipient's inbox, just below the subject.
+span : From Email
+option : Select a sender
+option : My Company <qmuhammad41@gmail.com>
+span : Choose the email address to be shown in your recipients inbox when they receive your campaign or
+span : Add a new sender
+div : Choose the email address to be shown in your recipients inbox when they receive your campaign or Add a new sender.
+span : From Name
+input : text : fromfield
+span : Enter a name (e.g. your company name) to help campaign recipients recognize you in their inbox.
+span : Customize the Reply-To Email address
+input : text : replyto
+span : Enter the email address where you want to receive replies from your contacts.
+span : Customize the 'To' Field
+input : text : tofield
+span : Keep the default or customize this option to personalize your 'To' field with contact attributes.
+input : checkbox : ga_active
+span : Activate Google Analytics Tracking
+span : Use a custom update profile form
+span : Create a new update profile form
+span : Add a tag
+input : text : No Name
+input : text : No Name
+span : Add an attachment
+input : text : No Name
+span : Select a file
+input : file : files
+span : Show Advanced Options
+span : ×
+span : Close
+h4 : Upgrade your plan
+h4 : This feature is available from the Premium plan.
+a : Upgrade my plan
+p : Easily upgrade, downgrade or cancel your subscription at any time.
+h4 : This feature is available from the Business plan.
+
+###
+

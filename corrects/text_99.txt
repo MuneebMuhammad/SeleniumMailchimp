@@ -1,0 +1,76 @@
+Get contact information[SEP]Title : NUST LMS
+a : lms@seecs.edu.pk
+div : lms@seecs.edu.pk  +92 51 9085 2091
+span : Latest News
+a : QS World University Rankings: NUST at 334th in the world; 1st in Pakistan
+a : Home
+a : About Us
+a : Schools/Colleges
+a : Services
+a : Training
+a : GitHub
+a : Archive
+a : Team
+a : Contact Us
+a : PORTAL
+h2 : LMS Helpdesk
+h3 : Our Address
+p : LMS Office, First Floor PG Block, NUST-SEECS,  H-12 Sector, Islamabad
+h3 : Email Us
+--------------------------> p : lms@seecs.edu.pk
+h3 : Call Us
+p : +92 51 9085 2091
+input : text : name
+input : email : email
+option : Select Institute
+option : ASAB
+option : CEME
+option : CAE
+option : IGIS
+option : IESE
+option : MCS
+option : MCE
+option : NBS
+option : NIPCONS/CIPS
+option : NIT
+option : NICE
+option : NBC
+option : PNEC
+option : RCMS
+option : RIMMS
+option : SEECS
+option : SSSH
+option : SMME
+option : SCEE
+option : SCME
+option : SADA
+option : SNS
+option : USPCAS-E
+option : Complaint
+option : General
+option : Suggestion
+option : Enrollment
+option : Password Issue
+option : Other
+div : Attachment:
+input : file : file[]
+div : Note: Only .pdf .jpg .png file type and size lower than 2MB allowed
+button : Send Message
+h3 : NUST-SEECS
+p : LMS Office First Floor PG Block, NUST-SEECS,  H-12 Sector, Islamabad Phone: +92 51 9085 2166 Email: lms@seecs.edu.pk
+strong : Phone:
+strong : Email:
+a : lms@seecs.edu.pk
+h4 : Useful Links
+a : About us
+a : Terms of service
+h4 : Our Services
+a : Support
+a : Help
+div : © Copyright NUST-LMS. All Rights Reserved
+span : NUST-LMS
+div : Designed by NUST LMS Development Team
+a : NUST LMS Development Team
+
+###
+

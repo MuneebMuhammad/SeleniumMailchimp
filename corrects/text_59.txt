@@ -1,0 +1,43 @@
+create an email group[SEP]Title : Brevo
+input : checkbox : No Name
+span : Formerly
+span : Home
+span : Contacts
+span : Lists
+span : Segments
+span : Landing pages
+span : Forms
+span : Settings
+span : Campaigns
+span : Automations
+span : Transactional
+span : Conversations
+span : Sales
+span : Meetings
+span : Usage and plan
+span : NUST
+h1 : Segments
+--------------------------> a : Create a segment
+div : Your saved filters are now archived here
+div : All saved filters created in the previous version of the Contact page are listed here after all your segments. They are labeled as archived.
+a : Read more about archived filters
+a : Close
+h2 : 0 Segments
+button : All categories
+span : All categories
+span : Archived Filters
+span : Dynamic List Filters
+span : My segments
+span : Create a new Category
+span : Delete
+input : search : No Name
+title : Search
+div : Segment
+div : ID
+div : Category
+div : Last edit
+h3 : You don't have any segments.
+span : Please create a new segment.
+
+###
+

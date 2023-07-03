@@ -1,0 +1,37 @@
+Explore the collection of existing templates[SEP]Title : Klaviyo
+body : SearchNotification BellAccount PlansSupportHomeCampaignsFlowsSign-up formsAudienceLists & segmentsProfilesContentTemplatesProductsImages & brandAnalyticsDashboardsMetricsBenchmarksCustom reportsConversationsT TUKLali.raza987.ar@gmail.comTemplatesMy TemplatesUniversal ContentA faster way to build consistent emailsCreate a design template that makes your content pop, and customize it with your brand’s colors, logo, and more. You can reuse your customized templates to save time when creating future emails.Learn More About Templates Create Template
+span : Search
+input : text : No Name
+span : Notification Bell
+a : Account Plans
+a : Support
+span : Home
+span : Campaigns
+span : Flows
+span : Sign-up forms
+span : Audience
+div : Lists & segments
+div : Profiles
+span : Content
+div : Templates
+div : Products
+div : Images & brand
+span : Analytics
+div : Dashboards
+div : Metrics
+div : Benchmarks
+div : Custom reports
+span : Conversations
+span : T
+span : TUKL
+span : ali.raza987.ar@gmail.com
+a : Templates
+div : My Templates
+div : Universal Content
+h1 : A faster way to build consistent emails
+p : Create a design template that makes your content pop, and customize it with your brand’s colors, logo, and more. You can reuse your customized templates to save time when creating future emails.
+a : Learn More About Templates
+--------------------------> span : Create Template
+
+###
+

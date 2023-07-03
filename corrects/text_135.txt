@@ -1,0 +1,31 @@
+Produce a form to sign up for a subscription[SEP]Title : Brevo
+input : checkbox : No Name
+span : Formerly
+span : Home
+span : Contacts
+span : Lists
+span : Segments
+span : Landing pages
+span : Forms
+span : Settings
+span : Campaigns
+span : Automations
+span : Transactional
+span : Conversations
+span : Sales
+span : Meetings
+span : Usage and plan
+span : NUST
+h1 : Forms
+--------------------------> a : Create a new subscription form
+a : Subscription
+a : Unsubscription
+a : Update profile
+h4 : Create your first subscription form
+p : Customize your subscription forms to grow your audience and capture details to connect on a personal level.
+a : Create a subscription form
+div : Learn more about the GDPR
+a : GDPR
+
+###
+

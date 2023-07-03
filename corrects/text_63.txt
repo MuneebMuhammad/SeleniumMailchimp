@@ -1,0 +1,9 @@
+Help me stablish an email group[SEP]Title : Brevo
+span : Unsaved segment
+span : Discard
+span : Save as segment
+h1 : You are looking for a group of people
+--------------------------> span : Add a filter
+
+###
+

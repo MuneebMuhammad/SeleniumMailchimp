@@ -1,0 +1,11 @@
+Sign into my account[SEP]Title :  Login | Qalam 
+a : National University of Sciences & Technology
+a : NUST
+p : Campus Management Solution
+--------------------------> input : text : Login ID
+input : password : Password
+button : Log in
+small : Developed by ICT Dte, National University of Sciences & Technology,  H-12, Islamabad, Pakistan 2019© All right reserved.
+
+###
+
