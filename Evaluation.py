@@ -79,7 +79,7 @@ def singleInference(index):
     try:
         res = openai.Completion.create(model=ft_model, prompt=test['prompt'][index-1], max_tokens=1, temperature=0)
     except:
-        print(f"{index + 1} prompt greater")
+        print(f"{index} prompt greater")
     target = test['completion'][index-1]
     text = test['prompt'][index-1]
     prediction = int(res['choices'][0]['text'])
@@ -99,6 +99,6 @@ def singleInference(index):
     with open("pred.txt", "w") as f:
         f.write('\n'.join(lines))
 
-singleInference(1)
+# singleInference(16)
 # formatCorrectPredictions()
 
