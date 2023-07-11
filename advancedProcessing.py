@@ -32,7 +32,7 @@ from selenium.webdriver.common.by import By
 
 
 
-f = open("Release a new album - ConvertKit.html", "r")
+f = open("./testing_html/Dashboard _ Benchmark Email.html", "r")
 source = f.read()
 # print(source)
 f.close()
@@ -43,7 +43,7 @@ mainElements = []
 def find_text_tags(tag):
     if isinstance(tag, NavigableString):
         if tag.strip():
-            if tag.parent.name not in ['script', 'style']:
+            if tag.parent.name not in ['script', 'style'] and len(tag)<200:
                 mainElements.append(tag.parent)
     else:
         if tag.name == 'input':

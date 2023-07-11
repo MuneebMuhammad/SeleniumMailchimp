@@ -34,7 +34,6 @@ def valDataEvaluation():
             continue
 
         lines = text.split('\n')
-
         # Check if start_line and end_line are within the bounds of the lines array
         if target <= len(lines):
             lines[target - 1] = '--------------------------> ' + lines[target - 1]
@@ -73,9 +72,9 @@ def formatCorrectPredictions():
             f.write('\n'.join(lines))
 
 
-def singleInference(index):
+def singleInferenceFromVal(index):
     ft_model = 'ada:ft-personal-2023-06-27-06-24-04'
-    test = pd.read_json('final_dataset1_prepared_valid.jsonl', lines=True)
+    test = pd.read_json('../datasetV1/final_dataset1_prepared_train.jsonl', lines=True)
     try:
         res = openai.Completion.create(model=ft_model, prompt=test['prompt'][index-1], max_tokens=1, temperature=0)
     except:
@@ -99,6 +98,35 @@ def singleInference(index):
     with open("pred.txt", "w") as f:
         f.write('\n'.join(lines))
 
-# singleInference(16)
-# formatCorrectPredictions()
+
+def inferenceOnDomV1(instruction, domPath):
+    ft_model = 'ada:ft-personal-2023-06-27-06-24-04'
+    with open(domPath, 'r') as f:
+        dom = f.read().strip()
+    prompt = instruction + '[SEP]' + dom + '\n\n###\n\n'
+    print(prompt)
+    res = openai.Completion.create(model=ft_model, prompt=prompt, max_tokens=1, temperature=0)
+    print("response is", res['choices'][0]['text'])
+
+def inferenceOnDomV2(instruction, domPath):
+    ft_model = "ada:ft-personal-2023-07-04-13-52-51"
+    with open(domPath, 'r') as f:
+        dom = f.read().strip()
+    prompt = "Select the line number in DOM which corresponds to the below instruction\nInstruction is "+instruction+"\nDOM\n"+dom + '\n\n###\n\n'
+    print(prompt)
+    res = openai.Completion.create(model=ft_model, prompt=prompt, max_tokens=1, temperature=0)
+    print("response is", res['choices'][0]['text'])
+
+inferenceOnDomV2('Create an email', './DOM.txt')
+
+
+
+
+
+
+
+# ft_model = 'ada:ft-personal-2023-06-27-06-24-04'
+# trains = pd.read_json('../datasetV1/final_dataset1_prepared_train.jsonl', lines=True)
+# res = openai.Completion.create(model=ft_model, prompt=trains['prompt'][0], max_tokens=1, temperature=0)
+# print(res['choices'][0]['text'])
 
