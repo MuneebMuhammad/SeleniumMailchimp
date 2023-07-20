@@ -3,7 +3,10 @@ from transformers import logging, AutoProcessor, MarkupLMForQuestionAnswering, M
 import torch
 from datasets import load_dataset
 
-dataset = load_dataset('json', data_files='data41.json')
+dataset = load_dataset('json', data_files='/scratch/muneebm/NLP/actionTransformers/datasets/v3/train.json')
+validationData = load_dataset('json', data_files='/scratch/muneebm/NLP/actionTransformers/datasets/v3/correctTest.json')
+new_max_position_embeddings = 1026
+save_weights_dir = "/scratch/muneebm/NLP/actionTransformers/weights/mad_markupLM_seq1024"
 
 feature_extractor = MarkupLMFeatureExtractor()
 tokenizer = MarkupLMTokenizerFast.from_pretrained("microsoft/markuplm-base-finetuned-websrc")
@@ -24,9 +27,9 @@ def offsetCumulation(offset):
 # preprocess the dataset
 def preprocessFunction(examples):
     questions = examples["question"].strip()
-    inputs = processor(examples["context"], questions=questions, return_tensors="pt", truncation=True, return_offsets_mapping=True, return_special_tokens_mask=True, max_length=512, padding='max_length'
+    inputs = processor(examples["context"], questions=questions, return_tensors="pt", truncation=True, return_offsets_mapping=True, return_special_tokens_mask=True, max_length=new_max_position_embeddings-2, padding='max_length'
                        )
-    offset = inputs.pop("offset_mapping")  ############# uncomment this
+    offset = inputs.pop("offset_mapping")
     offset = offset[0]
     offset = offsetCumulation(offset)
     torch.set_printoptions(profile="default")
@@ -72,19 +75,29 @@ def preprocessFunction(examples):
 
     return inputs
 
-tokenized_dataset = dataset.map(preprocessFunction)  ################## add remove columns
-
+tokenized_dataset = dataset.map(preprocessFunction, remove_columns=dataset["train"].column_names)
+tokenized_test_data = validationData.map(preprocessFunction, remove_columns=validationData["train"].column_names)
 data_collator = DefaultDataCollator()
 model = MarkupLMForQuestionAnswering.from_pretrained("microsoft/markuplm-base-finetuned-websrc")
 
+old_max_position_embeddings = model.config.max_position_embeddings
+if new_max_position_embeddings > old_max_position_embeddings:
+    print("increasing sequence length")
+    # Resize the positional embeddings
+    old_embeddings = model.markuplm.embeddings.position_embeddings.weight
+    new_embeddings = old_embeddings.new_empty((new_max_position_embeddings, old_embeddings.size(1)))
+    new_embeddings[:old_max_position_embeddings] = old_embeddings
+    model.markuplm.embeddings.position_embeddings.weight = torch.nn.Parameter(new_embeddings)
+    model.config.max_position_embeddings = new_max_position_embeddings
+
 # Training model
 training_args = TrainingArguments(
-    output_dir = "my_qa_model",
+    output_dir = save_weights_dir,
     evaluation_strategy = "epoch",
     learning_rate = 2e-5,
-    per_device_train_batch_size=1,
-    per_device_eval_batch_size=1,
-    num_train_epochs = 10,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
+    num_train_epochs = 100,
     weight_decay = 0.01,
     save_strategy="epoch",
 )
@@ -92,10 +105,11 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=tokenized_dataset["train"],
-    eval_dataset=tokenized_dataset["train"],
+    eval_dataset=tokenized_test_data["train"],
     tokenizer=tokenizer,
-    # data_collator = data_collator
+    data_collator = data_collator
 )
 trainer.train()
 
-tokenizer.save_pretrained("my_qa_model")
+tokenizer.save_pretrained(save_weights_dir)
+print(f"training data:{len(dataset['train'])}\nvalidation data:{len(validationData['train'])}")
